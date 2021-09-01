@@ -13,149 +13,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 105  -5040 0    118  ~ 24
-6S System has 6 identical balancing circuits (1S presented here)
 $Comp
-L Device:R R4
-U 1 1 609D8F69
-P 4750 -1625
-F 0 "R4" V 4900 -1625 50  0000 C CNN
-F 1 "400R" V 4825 -1625 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 -1625 50  0001 C CNN
-F 3 "~" H 4750 -1625 50  0001 C CNN
-	1    4750 -1625
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:Conn_01x07_Female J1
-U 1 1 609C815B
-P 1290 -2480
-F 0 "J1" H 1180 -2900 50  0000 C CNN
-F 1 "Conn_01x07_Female" H 1310 -2990 50  0000 C CNN
-F 2 "" H 1290 -2480 50  0001 C CNN
-F 3 "~" H 1290 -2480 50  0001 C CNN
-	1    1290 -2480
-	1    0    0    1   
-$EndComp
-Text GLabel 7025 -2000 2    50   Input ~ 0
-VC1
-Text GLabel 7025 -2100 2    50   Input ~ 0
-CB1
-Text GLabel 7025 -1800 2    50   Input ~ 0
-VC0
-Text GLabel 7025 -1900 2    50   Input ~ 0
-CB0
-Text Notes 6510 -2525 0    50   ~ 0
-Connection to BQ79606A-Q1 IC
-Wire Wire Line
-	420  -2280 1090 -2280
-Wire Wire Line
-	420  -2380 420  -2280
-Wire Wire Line
-	100  -2380 420  -2380
-Wire Wire Line
-	420  -2180 1090 -2180
-Wire Wire Line
-	420  -2080 420  -2180
-Wire Wire Line
-	100  -2080 420  -2080
-$Comp
-L Device:Q_NMOS_GDS Q1
-U 1 1 6099FE3F
-P 3275 -2500
-F 0 "Q1" H 3480 -2454 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 3480 -2545 50  0000 L CNN
-F 2 "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET" H 3475 -2400 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/csd16340q3.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1620668759872&ref_url=https%253A%252F%252Fwww.digikey.fi%252F" H 3275 -2500 50  0001 C CNN
-	1    3275 -2500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky D1
-U 1 1 6099ACA6
-P 3800 -2300
-F 0 "D1" V 3754 -2220 50  0000 L CNN
-F 1 "TVS_5.1V" V 3840 -2220 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 3800 -2300 50  0001 C CNN
-F 3 "~" H 3800 -2300 50  0001 C CNN
-	1    3800 -2300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 60999E25
-P 3175 -2900
-F 0 "R1" H 3245 -2854 50  0000 L CNN
-F 1 "0R750" H 3245 -2945 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2_TabPin1" V 3105 -2900 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR263S-35.pdf" H 3175 -2900 50  0001 C CNN
-	1    3175 -2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 60996CEA
-P 4750 -2500
-F 0 "R2" V 4900 -2500 50  0000 C CNN
-F 1 "1k" V 4825 -2500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4680 -2500 50  0001 C CNN
-F 3 "~" H 4750 -2500 50  0001 C CNN
-	1    4750 -2500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 60996225
-P 4750 -1900
-F 0 "R3" V 4900 -1900 50  0000 C CNN
-F 1 "100R" V 4825 -1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 -1900 50  0001 C CNN
-F 3 "~" H 4750 -1900 50  0001 C CNN
-	1    4750 -1900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 60995673
-P 5150 -2300
-F 0 "C2" H 5265 -2254 50  0000 L CNN
-F 1 "1uF" H 5265 -2345 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5188 -2450 50  0001 C CNN
-F 3 "~" H 5150 -2300 50  0001 C CNN
-	1    5150 -2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Battery_Cell BT1
-U 1 1 6099482A
-P 100 -2180
-F 0 "BT1" H 218 -2084 50  0000 L CNN
-F 1 "4.2V" H 218 -2175 50  0000 L CNN
-F 2 "" V 100 -2120 50  0001 C CNN
-F 3 "~" V 100 -2120 50  0001 C CNN
-	1    100  -2180
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C1
-U 1 1 60993B99
-P 4400 -2300
-F 0 "C1" H 4515 -2254 50  0000 L CNN
-F 1 "1nF" H 4515 -2345 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4438 -2450 50  0001 C CNN
-F 3 "~" H 4400 -2300 50  0001 C CNN
-	1    4400 -2300
-	1    0    0    -1  
-$EndComp
-Text Notes 3155 -3580 0    50   ~ 0
-BQ79606A-Q1 Passive Balancing Circuit \n6.6A 33W Max
-$Comp
-L My-Library:BQ79606APHPTQ1 U5
+L My-Library:BQ79606APHPTQ1 U2
 U 1 1 60A9C678
 P 4675 7400
-F 0 "U5" H 6175 5650 50  0000 L CNN
+F 0 "U2" H 6175 5650 50  0000 L CNN
 F 1 "BQ79606APHPTQ1" H 6175 5550 50  0000 L CNN
-F 2 "KICAD Components:QFP50P900X900X120-49N" H 6325 7900 50  0001 L CNN
+F 2 "KICAD Components:QFP50P900X900X120-49N" H 6325 7900 50  0000 L CNN
 F 3 "http://www.ti.com/lit/gpn/BQ79606A-Q1" H 6325 7800 50  0001 L CNN
 F 4 "SafeTI precision monitor with integrated hardware protector for automotive battery packs" H 6325 7700 50  0001 L CNN "Description"
 F 5 "1.2" H 6325 7600 50  0001 L CNN "Height"
@@ -168,93 +32,6 @@ F 11 "https://www.arrow.com/en/products/bq79606aphptq1/texas-instruments" H 6325
 	1    4675 7400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3175 -2700 3175 -2750
-Wire Wire Line
-	3175 -2300 3175 -1900
-Wire Wire Line
-	3175 -1900 3800 -1900
-Wire Wire Line
-	4900 -1900 4975 -1900
-Wire Wire Line
-	4600 -2500 4400 -2500
-Wire Wire Line
-	3800 -2450 3800 -2500
-Connection ~ 3800 -2500
-Wire Wire Line
-	3800 -2500 3475 -2500
-Wire Wire Line
-	4400 -2450 4400 -2500
-Connection ~ 4400 -2500
-Wire Wire Line
-	4400 -2500 3800 -2500
-Wire Wire Line
-	3800 -2150 3800 -1900
-Connection ~ 3800 -1900
-Wire Wire Line
-	3800 -1900 4400 -1900
-Wire Wire Line
-	4400 -2150 4400 -1900
-Connection ~ 4400 -1900
-Wire Wire Line
-	4400 -1900 4600 -1900
-Wire Wire Line
-	4900 -2500 4975 -2500
-Wire Wire Line
-	4975 -2500 4975 -1900
-Connection ~ 4975 -1900
-Wire Wire Line
-	4975 -1900 5150 -1900
-Wire Wire Line
-	5150 -2150 5150 -1900
-Connection ~ 5150 -1900
-Wire Wire Line
-	5150 -1900 7025 -1900
-Wire Wire Line
-	3175 -3050 3175 -3125
-Wire Wire Line
-	3175 -3125 5150 -3125
-Wire Wire Line
-	5150 -3125 5150 -2450
-Wire Wire Line
-	3175 -3125 2725 -3125
-Connection ~ 3175 -3125
-Wire Wire Line
-	3175 -1900 2725 -1900
-Connection ~ 3175 -1900
-Wire Wire Line
-	4400 -1900 4400 -1625
-Wire Wire Line
-	4400 -1625 4600 -1625
-Wire Wire Line
-	6975 -1625 6975 -1800
-Wire Wire Line
-	6975 -1800 7025 -1800
-Wire Wire Line
-	7025 -2100 6225 -2100
-Wire Wire Line
-	6225 -2100 6225 -3125
-Wire Wire Line
-	6225 -3125 5150 -3125
-Connection ~ 5150 -3125
-$Comp
-L Device:C C?
-U 1 1 6139586C
-P 5525 -2300
-F 0 "C?" H 5640 -2254 50  0000 L CNN
-F 1 "1uF" H 5640 -2345 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5563 -2450 50  0001 C CNN
-F 3 "~" H 5525 -2300 50  0001 C CNN
-	1    5525 -2300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5525 -2150 5525 -1625
-Connection ~ 5525 -1625
-Wire Wire Line
-	5525 -1625 6975 -1625
-Wire Wire Line
-	4900 -1625 5525 -1625
 $Sheet
 S 3325 7225 975  1600
 U 615CA4D2
@@ -263,8 +40,8 @@ F1 "BalancingCircuit.sch" 50
 F2 "CELL6" B L 3325 7675 50 
 F3 "CELL5" B L 3325 7775 50 
 F4 "CELL4" B L 3325 7875 50 
-F5 "CELL3" B L 3325 8075 50 
-F6 "CELL2" B L 3325 7975 50 
+F5 "CELL3" B L 3325 7975 50 
+F6 "CELL2" B L 3325 8075 50 
 F7 "CELL1" B L 3325 8175 50 
 F8 "CELL0" B L 3325 8275 50 
 F9 "VC6" O R 4300 7500 50 
@@ -322,27 +99,25 @@ Wire Wire Line
 	4675 7500 4300 7500
 Wire Wire Line
 	4675 7400 4300 7400
-Text Label 1450 7675 2    50   ~ 0
+Text Label 1200 7675 2    50   ~ 0
 CELL6
-Text Label 1450 7775 2    50   ~ 0
+Text Label 1200 7775 2    50   ~ 0
 CELL5
-Text Label 1450 7875 2    50   ~ 0
+Text Label 1200 7875 2    50   ~ 0
 CELL4
-Text Label 1450 7975 2    50   ~ 0
+Text Label 1200 7975 2    50   ~ 0
 CELL3
-Text Label 1450 8075 2    50   ~ 0
+Text Label 1200 8075 2    50   ~ 0
 CELL2
-Text Label 1450 8175 2    50   ~ 0
+Text Label 1200 8175 2    50   ~ 0
 CELL1
-Text Label 1450 8275 2    50   ~ 0
+Text Label 1200 8275 2    50   ~ 0
 CELL0
-Wire Wire Line
-	1150 7675 1900 7675
 $Comp
-L power:GND #PWR?
+L power:GND #PWR08
 U 1 1 61763FA5
 P 5175 9350
-F 0 "#PWR?" H 5175 9100 50  0001 C CNN
+F 0 "#PWR08" H 5175 9100 50  0001 C CNN
 F 1 "GND" H 5175 9200 50  0000 C CNN
 F 2 "" H 5175 9350 50  0001 C CNN
 F 3 "" H 5175 9350 50  0001 C CNN
@@ -356,10 +131,10 @@ NoConn ~ 5675 9300
 NoConn ~ 5775 9300
 NoConn ~ 5875 9300
 $Comp
-L power:GND #PWR?
+L power:GND #PWR013
 U 1 1 617CB777
 P 6525 7500
-F 0 "#PWR?" H 6525 7250 50  0001 C CNN
+F 0 "#PWR013" H 6525 7250 50  0001 C CNN
 F 1 "GND" V 6530 7372 50  0000 R CNN
 F 2 "" H 6525 7500 50  0001 C CNN
 F 3 "" H 6525 7500 50  0001 C CNN
@@ -367,10 +142,10 @@ F 3 "" H 6525 7500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR014
 U 1 1 617CCBD9
 P 6525 8400
-F 0 "#PWR?" H 6525 8150 50  0001 C CNN
+F 0 "#PWR014" H 6525 8150 50  0001 C CNN
 F 1 "GND" V 6530 8272 50  0000 R CNN
 F 2 "" H 6525 8400 50  0001 C CNN
 F 3 "" H 6525 8400 50  0001 C CNN
@@ -386,32 +161,32 @@ NoConn ~ 6075 9300
 NoConn ~ 5475 9300
 NoConn ~ 5375 9300
 $Comp
-L Connector:Conn_01x07_Male J2
+L Connector:Conn_01x07_Male J1
 U 1 1 609BC3B9
-P 950 7975
-F 0 "J2" H 1090 8345 50  0000 R CNN
-F 1 "Conn_01x07_Male" H 1290 8435 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 950 7975 50  0001 C CNN
-F 3 "~" H 950 7975 50  0001 C CNN
-	1    950  7975
+P 700 7975
+F 0 "J1" H 840 8345 50  0000 R CNN
+F 1 "Conn_01x07_Male" H 1200 8425 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 700 7975 50  0000 C CNN
+F 3 "~" H 700 7975 50  0001 C CNN
+	1    700  7975
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R15
 U 1 1 617F27FF
 P 9100 7500
-F 0 "R?" V 8950 7500 50  0000 C CNN
+F 0 "R15" V 8950 7500 50  0000 C CNN
 F 1 "10k" V 9025 7500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 7500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 7500 50  0000 C CNN
 F 3 "~" H 9100 7500 50  0001 C CNN
 	1    9100 7500
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR021
 U 1 1 61806E38
 P 9425 8050
-F 0 "#PWR?" H 9425 7800 50  0001 C CNN
+F 0 "#PWR021" H 9425 7800 50  0001 C CNN
 F 1 "GND" V 9430 7922 50  0000 R CNN
 F 2 "" H 9425 8050 50  0001 C CNN
 F 3 "" H 9425 8050 50  0001 C CNN
@@ -486,56 +261,56 @@ Wire Wire Line
 Wire Wire Line
 	8325 7500 8950 7500
 $Comp
-L Device:R R?
+L Device:R R16
 U 1 1 6182B6EF
 P 9100 7725
-F 0 "R?" V 8950 7725 50  0000 C CNN
+F 0 "R16" V 8950 7725 50  0000 C CNN
 F 1 "10k" V 9025 7725 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 7725 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 7725 50  0000 C CNN
 F 3 "~" H 9100 7725 50  0001 C CNN
 	1    9100 7725
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R17
 U 1 1 6182BA70
 P 9100 7950
-F 0 "R?" V 8950 7950 50  0000 C CNN
+F 0 "R17" V 8950 7950 50  0000 C CNN
 F 1 "10k" V 9025 7950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 7950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 7950 50  0000 C CNN
 F 3 "~" H 9100 7950 50  0001 C CNN
 	1    9100 7950
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R18
 U 1 1 6182BD98
 P 9100 8175
-F 0 "R?" V 8950 8175 50  0000 C CNN
+F 0 "R18" V 8950 8175 50  0000 C CNN
 F 1 "10k" V 9025 8175 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 8175 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 8175 50  0000 C CNN
 F 3 "~" H 9100 8175 50  0001 C CNN
 	1    9100 8175
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R19
 U 1 1 6182C0AB
 P 9100 8400
-F 0 "R?" V 8950 8400 50  0000 C CNN
+F 0 "R19" V 8950 8400 50  0000 C CNN
 F 1 "10k" V 9025 8400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 8400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 8400 50  0000 C CNN
 F 3 "~" H 9100 8400 50  0001 C CNN
 	1    9100 8400
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R20
 U 1 1 6182C3C5
 P 9100 8625
-F 0 "R?" V 8950 8625 50  0000 C CNN
+F 0 "R20" V 8950 8625 50  0000 C CNN
 F 1 "10k" V 9025 8625 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 8625 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 8625 50  0000 C CNN
 F 3 "~" H 9100 8625 50  0001 C CNN
 	1    9100 8625
 	0    1    1    0   
@@ -543,12 +318,12 @@ $EndComp
 Text Notes 8575 8925 0    50   ~ 0
 GPIOs currently not used.\nCan be implemented in future for \nexternal temperature sensing
 $Comp
-L Device:C C?
+L Device:C C8
 U 1 1 618348D2
 P 6425 6850
-F 0 "C?" H 6310 6804 50  0000 R CNN
+F 0 "C8" H 6310 6804 50  0000 R CNN
 F 1 "330nF 50V" H 6310 6895 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6463 6700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6463 6700 50  0000 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-1206/5488-chipc-1206-330n.html" H 6425 6850 50  0001 C CNN
 	1    6425 6850
 	-1   0    0    1   
@@ -561,28 +336,27 @@ Wire Wire Line
 	6425 6625 6425 6700
 Wire Wire Line
 	6425 7050 6425 7000
-Connection ~ 1900 7675
 Wire Wire Line
 	7325 6325 7325 6400
 Connection ~ 6425 6625
 $Comp
-L Device:R R?
+L Device:R R4
 U 1 1 6185DAFC
 P 6425 6325
-F 0 "R?" H 6325 6300 50  0000 C CNN
+F 0 "R4" H 6325 6300 50  0000 C CNN
 F 1 "49R" H 6300 6375 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6355 6325 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6355 6325 50  0000 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/vastukset/pintaliitosvastukset/pintaliitosvastukset-0805/16583-chipr-0805-50r.html" H 6425 6325 50  0001 C CNN
 	1    6425 6325
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R12
 U 1 1 6187408D
 P 8225 4725
-F 0 "R?" H 8100 4650 50  0000 C CNN
+F 0 "R12" H 8100 4650 50  0000 C CNN
 F 1 "100k" H 8075 4800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8155 4725 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8155 4725 50  0000 C CNN
 F 3 "~" H 8225 4725 50  0001 C CNN
 	1    8225 4725
 	1    0    0    1   
@@ -590,10 +364,10 @@ $EndComp
 Wire Wire Line
 	8225 4525 8225 4575
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 61886771
 P 3750 6075
-F 0 "#PWR?" H 3750 5825 50  0001 C CNN
+F 0 "#PWR05" H 3750 5825 50  0001 C CNN
 F 1 "GND" H 3825 5925 50  0000 R CNN
 F 2 "" H 3750 6075 50  0001 C CNN
 F 3 "" H 3750 6075 50  0001 C CNN
@@ -603,21 +377,21 @@ $EndComp
 Wire Wire Line
 	3750 6025 3750 6075
 $Comp
-L Device:R R?
+L Device:R R9
 U 1 1 612E4F27
 P 7875 5475
-F 0 "R?" H 7775 5400 50  0000 C CNN
+F 0 "R9" H 7750 5400 50  0000 C CNN
 F 1 "100k" H 7725 5500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7805 5475 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7805 5475 50  0000 C CNN
 F 3 "~" H 7875 5475 50  0001 C CNN
 	1    7875 5475
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR09
 U 1 1 61301E02
 P 5375 6650
-F 0 "#PWR?" H 5375 6400 50  0001 C CNN
+F 0 "#PWR09" H 5375 6400 50  0001 C CNN
 F 1 "GND" H 5375 6500 50  0000 C CNN
 F 2 "" H 5375 6650 50  0001 C CNN
 F 3 "" H 5375 6650 50  0001 C CNN
@@ -625,10 +399,10 @@ F 3 "" H 5375 6650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR03
 U 1 1 613034C6
 P 3300 6100
-F 0 "#PWR?" H 3300 5850 50  0001 C CNN
+F 0 "#PWR03" H 3300 5850 50  0001 C CNN
 F 1 "GND" H 3305 5927 50  0000 C CNN
 F 2 "" H 3300 6100 50  0001 C CNN
 F 3 "" H 3300 6100 50  0001 C CNN
@@ -636,10 +410,10 @@ F 3 "" H 3300 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR016
 U 1 1 61303ED6
 P 7325 6400
-F 0 "#PWR?" H 7325 6150 50  0001 C CNN
+F 0 "#PWR016" H 7325 6150 50  0001 C CNN
 F 1 "GND" H 7330 6227 50  0000 C CNN
 F 2 "" H 7325 6400 50  0001 C CNN
 F 3 "" H 7325 6400 50  0001 C CNN
@@ -647,10 +421,10 @@ F 3 "" H 7325 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 61304462
 P 4200 6075
-F 0 "#PWR?" H 4200 5825 50  0001 C CNN
+F 0 "#PWR06" H 4200 5825 50  0001 C CNN
 F 1 "GND" H 4205 5902 50  0000 C CNN
 F 2 "" H 4200 6075 50  0001 C CNN
 F 3 "" H 4200 6075 50  0001 C CNN
@@ -670,10 +444,10 @@ Wire Wire Line
 Wire Wire Line
 	3300 5525 5475 5525
 $Comp
-L power:GND #PWR?
+L power:GND #PWR012
 U 1 1 61361283
 P 6425 7050
-F 0 "#PWR?" H 6425 6800 50  0001 C CNN
+F 0 "#PWR012" H 6425 6800 50  0001 C CNN
 F 1 "GND" H 6430 6877 50  0000 C CNN
 F 2 "" H 6425 7050 50  0001 C CNN
 F 3 "" H 6425 7050 50  0001 C CNN
@@ -690,12 +464,12 @@ Wire Wire Line
 	8225 4875 8225 5275
 Connection ~ 8225 4525
 $Comp
-L Device:R R?
+L Device:R R8
 U 1 1 613D21F4
 P 7575 5475
-F 0 "R?" H 7475 5400 50  0000 C CNN
+F 0 "R8" H 7450 5400 50  0000 C CNN
 F 1 "100k" H 7425 5500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7505 5475 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7505 5475 50  0000 C CNN
 F 3 "~" H 7575 5475 50  0001 C CNN
 	1    7575 5475
 	-1   0    0    1   
@@ -725,10 +499,10 @@ BmsTX_McuRX
 Wire Wire Line
 	2850 6025 2850 6100
 $Comp
-L power:GND #PWR?
+L power:GND #PWR02
 U 1 1 61431B48
 P 2850 6100
-F 0 "#PWR?" H 2850 5850 50  0001 C CNN
+F 0 "#PWR02" H 2850 5850 50  0001 C CNN
 F 1 "GND" H 2855 5927 50  0000 C CNN
 F 2 "" H 2850 6100 50  0001 C CNN
 F 3 "" H 2850 6100 50  0001 C CNN
@@ -752,26 +526,14 @@ Wire Wire Line
 Wire Wire Line
 	1900 7675 3325 7675
 Wire Wire Line
-	1150 7775 3325 7775
-Wire Wire Line
-	1150 7875 3325 7875
-Wire Wire Line
-	1150 7975 3325 7975
-Wire Wire Line
-	1150 8075 3325 8075
-Wire Wire Line
-	1150 8175 3325 8175
-Wire Wire Line
-	1150 8275 3325 8275
-Wire Wire Line
 	8225 5275 8225 6850
 Wire Wire Line
 	8400 7150 8400 7225
 $Comp
-L power:GND #PWR?
+L power:GND #PWR019
 U 1 1 614A2FB0
 P 8400 7225
-F 0 "#PWR?" H 8400 6975 50  0001 C CNN
+F 0 "#PWR019" H 8400 6975 50  0001 C CNN
 F 1 "GND" H 8405 7052 50  0000 C CNN
 F 2 "" H 8400 7225 50  0001 C CNN
 F 3 "" H 8400 7225 50  0001 C CNN
@@ -788,21 +550,21 @@ Wire Wire Line
 Wire Wire Line
 	8225 9475 8225 9000
 $Comp
-L Device:R R?
+L Device:R R13
 U 1 1 614B802F
 P 8225 8850
-F 0 "R?" H 8125 8775 50  0000 C CNN
+F 0 "R13" H 8100 8775 50  0000 C CNN
 F 1 "100k" H 8075 8875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8155 8850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8155 8850 50  0000 C CNN
 F 3 "~" H 8225 8850 50  0001 C CNN
 	1    8225 8850
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR017
 U 1 1 614DF213
 P 7800 7450
-F 0 "#PWR?" H 7800 7200 50  0001 C CNN
+F 0 "#PWR017" H 7800 7200 50  0001 C CNN
 F 1 "GND" H 7805 7277 50  0000 C CNN
 F 2 "" H 7800 7450 50  0001 C CNN
 F 3 "" H 7800 7450 50  0001 C CNN
@@ -810,10 +572,10 @@ F 3 "" H 7800 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR015
 U 1 1 614C9B6A
 P 7175 8900
-F 0 "#PWR?" H 7175 8650 50  0001 C CNN
+F 0 "#PWR015" H 7175 8650 50  0001 C CNN
 F 1 "GND" H 7180 8727 50  0000 C CNN
 F 2 "" H 7175 8900 50  0001 C CNN
 F 3 "" H 7175 8900 50  0001 C CNN
@@ -842,100 +604,100 @@ Wire Wire Line
 Wire Wire Line
 	6425 5325 6425 6175
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 615826BD
 P 4625 6400
-F 0 "R?" V 4475 6400 50  0000 C CNN
+F 0 "R1" V 4475 6400 50  0000 C CNN
 F 1 "100R" V 4550 6400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4555 6400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4555 6400 50  0000 C CNN
 F 3 "~" H 4625 6400 50  0001 C CNN
 	1    4625 6400
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 6188676B
 P 3750 5875
-F 0 "C?" H 3650 5800 50  0000 L CNN
+F 0 "C4" H 3650 5800 50  0000 L CNN
 F 1 "2.2uF 10V" H 3350 5975 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3788 5725 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3788 5725 50  0000 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 3750 5875 50  0001 C CNN
 	1    3750 5875
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C3
 U 1 1 6158896C
 P 3300 5875
-F 0 "C?" H 3200 5800 50  0000 L CNN
+F 0 "C3" H 3200 5800 50  0000 L CNN
 F 1 "2.2uF 10V" H 2900 5975 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3338 5725 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3338 5725 50  0000 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 3300 5875 50  0001 C CNN
 	1    3300 5875
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 61588FB9
 P 2850 5875
-F 0 "C?" H 2750 5800 50  0000 L CNN
+F 0 "C1" H 2750 5800 50  0000 L CNN
 F 1 "2.2uF 10V" H 2450 5975 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 5725 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 5725 50  0000 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 2850 5875 50  0001 C CNN
 	1    2850 5875
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C12
 U 1 1 6158964A
 P 7325 6175
-F 0 "C?" H 7225 6100 50  0000 L CNN
+F 0 "C12" H 7175 6100 50  0000 L CNN
 F 1 "2.2uF 10V" H 6925 6275 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7363 6025 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7363 6025 50  0000 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 7325 6175 50  0001 C CNN
 	1    7325 6175
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C14
 U 1 1 6158AAE1
 P 8400 7000
-F 0 "C?" H 8300 6925 50  0000 L CNN
+F 0 "C14" H 8250 6925 50  0000 L CNN
 F 1 "2.2uF 10V" H 8000 7100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8438 6850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8438 6850 50  0000 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 8400 7000 50  0001 C CNN
 	1    8400 7000
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C13
 U 1 1 6158C13C
 P 7800 7250
-F 0 "C?" H 7700 7175 50  0000 L CNN
+F 0 "C13" H 7650 7175 50  0000 L CNN
 F 1 "2.2uF 10V" H 7400 7350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7838 7100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7838 7100 50  0000 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 7800 7250 50  0001 C CNN
 	1    7800 7250
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C9
 U 1 1 6158CA76
 P 7175 8700
-F 0 "C?" H 7075 8625 50  0000 L CNN
+F 0 "C9" H 7025 8625 50  0000 L CNN
 F 1 "2.2uF 10V" H 6775 8800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7213 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7213 8550 50  0000 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 7175 8700 50  0001 C CNN
 	1    7175 8700
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 6159210B
 P 4200 5875
-F 0 "C?" H 4085 5829 50  0000 R CNN
+F 0 "C6" H 4085 5829 50  0000 R CNN
 F 1 "330nF 50V" H 4085 5920 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4238 5725 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4238 5725 50  0000 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-1206/5488-chipc-1206-330n.html" H 4200 5875 50  0001 C CNN
 	1    4200 5875
 	-1   0    0    1   
@@ -952,12 +714,12 @@ Wire Wire Line
 	7575 5275 7875 5275
 Connection ~ 7875 5275
 $Comp
-L Device:R R?
+L Device:R R7
 U 1 1 61623CA2
 P 7325 7250
-F 0 "R?" H 7225 7175 50  0000 C CNN
+F 0 "R7" H 7200 7175 50  0000 C CNN
 F 1 "100k" H 7175 7275 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7255 7250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7255 7250 50  0000 C CNN
 F 3 "~" H 7325 7250 50  0001 C CNN
 	1    7325 7250
 	-1   0    0    1   
@@ -984,23 +746,23 @@ Wire Wire Line
 Wire Wire Line
 	7800 6925 7800 7100
 $Comp
-L Connector:Conn_01x04_Male J?
+L Connector:Conn_01x04_Male J4
 U 1 1 6175FB4B
 P 13350 5975
-F 0 "J?" H 13322 5949 50  0000 R CNN
+F 0 "J4" H 13322 5949 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 13300 5850 50  0001 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 13350 5975 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 13350 5975 50  0000 C CNN
 F 3 "~" H 13350 5975 50  0001 C CNN
 	1    13350 5975
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R22
 U 1 1 617D91C8
 P 12900 5875
-F 0 "R?" V 12750 5875 50  0000 C CNN
+F 0 "R22" V 12750 5875 50  0000 C CNN
 F 1 "0R" V 12825 5875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 12830 5875 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12830 5875 50  0000 C CNN
 F 3 "~" H 12900 5875 50  0001 C CNN
 	1    12900 5875
 	0    1    1    0   
@@ -1030,10 +792,10 @@ Wire Wire Line
 Wire Wire Line
 	8225 9475 10100 9475
 $Comp
-L power:GND #PWR?
+L power:GND #PWR07
 U 1 1 618C80E8
 P 4975 6650
-F 0 "#PWR?" H 4975 6400 50  0001 C CNN
+F 0 "#PWR07" H 4975 6400 50  0001 C CNN
 F 1 "GND" H 4975 6500 50  0000 C CNN
 F 2 "" H 4975 6650 50  0001 C CNN
 F 3 "" H 4975 6650 50  0001 C CNN
@@ -1086,10 +848,10 @@ $EndSheet
 Wire Wire Line
 	10100 5675 10825 5675
 $Comp
-L power:GND #PWR?
+L power:GND #PWR023
 U 1 1 61A5AC17
 P 13150 6225
-F 0 "#PWR?" H 13150 5975 50  0001 C CNN
+F 0 "#PWR023" H 13150 5975 50  0001 C CNN
 F 1 "GND" H 13155 6052 50  0000 C CNN
 F 2 "" H 13150 6225 50  0001 C CNN
 F 3 "" H 13150 6225 50  0001 C CNN
@@ -1109,300 +871,132 @@ Wire Wire Line
 Wire Wire Line
 	12175 5775 12450 5775
 $Comp
-L My-Library:IRS2186(4)(S)PBF U?
-U 1 1 61B03C75
-P 6400 3525
-F 0 "U?" H 6387 3925 50  0000 C CNN
-F 1 "IRS2186(4)(S)PBF" H 6387 3834 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6375 3525 50  0001 C CNN
-F 3 "" H 6375 3525 50  0001 C CNN
-	1    6400 3525
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_ALT D?
-U 1 1 61B053BF
-P 7300 3175
-F 0 "D?" V 7250 3025 50  0000 C CNN
-F 1 "D_ALT" V 7350 2975 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 7300 3175 50  0001 C CNN
-F 3 "~" H 7300 3175 50  0001 C CNN
-	1    7300 3175
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C?
+L Device:C C11
 U 1 1 61B0716C
 P 7300 3525
-F 0 "C?" H 7200 3450 50  0000 L CNN
+F 0 "C11" H 7150 3450 50  0000 L CNN
 F 1 "1uF" H 7150 3625 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7338 3375 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7338 3375 50  0000 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 7300 3525 50  0001 C CNN
 	1    7300 3525
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7300 3375 7300 3350
-Wire Wire Line
-	6700 3350 7300 3350
-Connection ~ 7300 3350
-Wire Wire Line
-	7300 3350 7300 3325
-Wire Wire Line
-	6700 3450 7150 3450
-Wire Wire Line
-	7150 3450 7150 3950
-Wire Wire Line
-	6075 3350 5500 3350
 $Comp
-L power:GND #PWR?
-U 1 1 61B7C756
-P 5950 4050
-F 0 "#PWR?" H 5950 3800 50  0001 C CNN
-F 1 "GND" H 5955 3877 50  0000 C CNN
-F 2 "" H 5950 4050 50  0001 C CNN
-F 3 "" H 5950 4050 50  0001 C CNN
-	1    5950 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6075 3550 5950 3550
-Wire Wire Line
-	5950 3550 5950 3950
-Wire Wire Line
-	7300 3850 7300 3675
-Wire Wire Line
-	6700 3550 7050 3550
-Wire Wire Line
-	7050 3550 7050 3850
-Wire Wire Line
-	7050 3850 7300 3850
-Connection ~ 7300 3850
-Wire Wire Line
-	6700 3650 6950 3650
-Wire Wire Line
-	6950 3650 6950 3025
-Wire Wire Line
-	6950 3025 7300 3025
-$Comp
-L Device:R R?
-U 1 1 61BE6007
-P 5675 3700
-F 0 "R?" H 5575 3625 50  0000 C CNN
-F 1 "100k" H 5525 3725 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5605 3700 50  0001 C CNN
-F 3 "~" H 5675 3700 50  0001 C CNN
-	1    5675 3700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6075 3450 5675 3450
-Wire Wire Line
-	5675 3450 5675 3550
-NoConn ~ 6075 3650
-Wire Wire Line
-	5675 3850 5675 3950
-Wire Wire Line
-	5675 3950 5950 3950
-Connection ~ 5950 3950
-Wire Wire Line
-	5950 3950 5950 4050
-$Comp
-L Regulator_Linear:L7818 U?
+L Regulator_Linear:L7818 U1
 U 1 1 61C0ACD2
-P 3975 1625
-F 0 "U?" H 3975 1867 50  0000 C CNN
-F 1 "L7815CD2T" H 3975 1776 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2" H 4000 1475 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3975 1575 50  0001 C CNN
-	1    3975 1625
+P 3550 1625
+F 0 "U1" H 3550 1867 50  0000 C CNN
+F 1 "L7812CD2T" H 3550 1776 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 3575 1475 50  0000 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3550 1575 50  0001 C CNN
+	1    3550 1625
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 61C0E3FD
-P 4475 1825
-F 0 "C?" H 4275 1800 50  0000 L CNN
-F 1 "0.1uF" H 4150 1900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4513 1675 50  0001 C CNN
-F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 4475 1825 50  0001 C CNN
-	1    4475 1825
+P 4050 1825
+F 0 "C5" H 3850 1800 50  0000 L CNN
+F 1 "0.1uF" H 3725 1900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 1675 50  0000 C CNN
+F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 4050 1825 50  0001 C CNN
+	1    4050 1825
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 61C2B2EB
-P 3325 1825
-F 0 "C?" H 3125 1800 50  0000 L CNN
-F 1 "0.33uF" H 3000 1900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3363 1675 50  0001 C CNN
-F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 3325 1825 50  0001 C CNN
-	1    3325 1825
+P 2900 1825
+F 0 "C2" H 2700 1800 50  0000 L CNN
+F 1 "0.33uF" H 2575 1900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 1675 50  0000 C CNN
+F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 2900 1825 50  0001 C CNN
+	1    2900 1825
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4275 1625 4475 1625
+	3850 1625 4050 1625
 Wire Wire Line
-	4475 1625 4475 1675
+	4050 1625 4050 1675
 Wire Wire Line
-	3675 1625 3325 1625
+	3250 1625 2900 1625
 Wire Wire Line
-	3325 1625 3325 1675
+	2900 1625 2900 1675
 $Comp
-L power:GND #PWR?
+L power:GND #PWR04
 U 1 1 61C50DFC
-P 3975 2075
-F 0 "#PWR?" H 3975 1825 50  0001 C CNN
-F 1 "GND" H 3980 1902 50  0000 C CNN
-F 2 "" H 3975 2075 50  0001 C CNN
-F 3 "" H 3975 2075 50  0001 C CNN
-	1    3975 2075
+P 3550 2075
+F 0 "#PWR04" H 3550 1825 50  0001 C CNN
+F 1 "GND" H 3555 1902 50  0000 C CNN
+F 2 "" H 3550 2075 50  0001 C CNN
+F 3 "" H 3550 2075 50  0001 C CNN
+	1    3550 2075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3975 1925 3975 2025
+	3550 1925 3550 2025
 Wire Wire Line
-	4475 1975 4475 2025
+	4050 1975 4050 2025
 Wire Wire Line
-	4475 2025 3975 2025
-Connection ~ 3975 2025
+	4050 2025 3550 2025
+Connection ~ 3550 2025
 Wire Wire Line
-	3975 2025 3975 2075
+	3550 2025 3550 2075
 Wire Wire Line
-	3975 2025 3325 2025
+	3550 2025 2900 2025
 Wire Wire Line
-	3325 2025 3325 1975
+	2900 2025 2900 1975
 $Comp
-L My-Library:IRS2186(4)(S)PBF U?
-U 1 1 61C8D588
-P 6400 2125
-F 0 "U?" H 6387 2525 50  0000 C CNN
-F 1 "IRS2186(4)(S)PBF" H 6387 2434 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6375 2125 50  0001 C CNN
-F 3 "" H 6375 2125 50  0001 C CNN
-	1    6400 2125
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_ALT D?
+L Device:D_ALT D1
 U 1 1 61C8D58E
 P 7300 1775
-F 0 "D?" V 7250 1625 50  0000 C CNN
-F 1 "D_ALT" V 7350 1575 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 7300 1775 50  0001 C CNN
+F 0 "D1" V 7250 1625 50  0000 C CNN
+F 1 "1N6263W-7-F 1A" V 7500 1550 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 7300 1775 50  0000 C CNN
 F 3 "~" H 7300 1775 50  0001 C CNN
 	1    7300 1775
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C10
 U 1 1 61C8D594
 P 7300 2125
-F 0 "C?" H 7200 2050 50  0000 L CNN
+F 0 "C10" H 7150 2050 50  0000 L CNN
 F 1 "1uF" H 7150 2225 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7338 1975 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7338 1975 50  0000 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 7300 2125 50  0001 C CNN
 	1    7300 2125
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7300 1975 7300 1950
-Wire Wire Line
-	6700 1950 7300 1950
-Connection ~ 7300 1950
-Wire Wire Line
-	7300 1950 7300 1925
-Wire Wire Line
-	6700 2050 7150 2050
-Wire Wire Line
-	7150 2050 7150 2550
-Wire Wire Line
-	6075 1950 5400 1950
-$Comp
-L power:GND #PWR?
-U 1 1 61C8D5A2
-P 5950 2650
-F 0 "#PWR?" H 5950 2400 50  0001 C CNN
-F 1 "GND" H 5955 2477 50  0000 C CNN
-F 2 "" H 5950 2650 50  0001 C CNN
-F 3 "" H 5950 2650 50  0001 C CNN
-	1    5950 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6075 2150 5950 2150
-Wire Wire Line
-	5950 2150 5950 2550
-Wire Wire Line
 	7300 2450 7300 2275
-Wire Wire Line
-	6700 2150 7050 2150
-Wire Wire Line
-	7050 2150 7050 2450
-Wire Wire Line
-	7050 2450 7300 2450
-Wire Wire Line
-	6700 2250 6950 2250
-Wire Wire Line
-	6950 2250 6950 1625
-Wire Wire Line
-	6950 1625 7300 1625
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 61C8D5B3
-P 5675 2300
-F 0 "R?" H 5575 2225 50  0000 C CNN
-F 1 "100k" H 5525 2325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5605 2300 50  0001 C CNN
-F 3 "~" H 5675 2300 50  0001 C CNN
-	1    5675 2300
+P 5725 2600
+F 0 "R2" H 5625 2525 50  0000 C CNN
+F 1 "100k" H 5575 2625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5655 2600 50  0000 C CNN
+F 3 "~" H 5725 2600 50  0001 C CNN
+	1    5725 2600
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6075 2050 5675 2050
-Wire Wire Line
-	5675 2050 5675 2150
-NoConn ~ 6075 2250
-Wire Wire Line
-	5675 2450 5675 2550
-Wire Wire Line
-	5675 2550 5950 2550
-Connection ~ 5950 2550
-Wire Wire Line
-	5950 2550 5950 2650
-Connection ~ 6950 3025
-Wire Wire Line
-	6950 1625 4925 1625
-Connection ~ 6950 1625
-Wire Wire Line
-	4925 3025 4925 1625
-Wire Wire Line
-	4925 3025 6950 3025
-Wire Wire Line
-	4475 1625 4925 1625
-Connection ~ 4475 1625
-Connection ~ 4925 1625
-Text Label 4475 1625 0    50   ~ 0
-+15V
-Text Label 3325 1625 0    50   ~ 0
+Connection ~ 4050 1625
+Text Label 4050 1625 0    50   ~ 0
++12V
+Text Label 2900 1625 0    50   ~ 0
 +25V2
-Connection ~ 3325 1625
 Text Notes 13600 6175 0    50   ~ 0
 Pinout:\n1. +3V3 (Optional)\n2. SWDIO\n3. SWCLK\n4. GND
 Wire Wire Line
-	1900 5325 1900 1625
-Wire Wire Line
-	1900 1625 3325 1625
-Connection ~ 1900 5325
-Wire Wire Line
 	1900 1075 1600 1075
 Text Notes 1450 1000 2    50   ~ 0
-+25V2 Battery+
++25V2 Battery +
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01
 U 1 1 61DCB521
 P 1600 1225
-F 0 "#PWR?" H 1600 975 50  0001 C CNN
+F 0 "#PWR01" H 1600 975 50  0001 C CNN
 F 1 "GND" H 1605 1052 50  0000 C CNN
 F 2 "" H 1600 1225 50  0001 C CNN
 F 3 "" H 1600 1225 50  0001 C CNN
@@ -1412,14 +1006,14 @@ $EndComp
 Wire Wire Line
 	1600 1225 1600 1175
 Text Notes 1450 1300 2    50   ~ 0
-GND Battery-
+GND Battery -
 Text Notes 9975 1000 0    50   ~ 0
 Charger or Load +
 $Comp
-L power:GND #PWR?
+L power:GND #PWR022
 U 1 1 61DDFD28
 P 9825 1225
-F 0 "#PWR?" H 9825 975 50  0001 C CNN
+F 0 "#PWR022" H 9825 975 50  0001 C CNN
 F 1 "GND" H 9830 1052 50  0000 C CNN
 F 2 "" H 9825 1225 50  0001 C CNN
 F 3 "" H 9825 1225 50  0001 C CNN
@@ -1428,27 +1022,24 @@ F 3 "" H 9825 1225 50  0001 C CNN
 $EndComp
 Text Notes 9975 1325 0    50   ~ 0
 Charger or Load -
-Connection ~ 1900 1625
-Wire Wire Line
-	1900 1625 1900 1075
 $Comp
-L Device:Q_NMOS_GDS Q?
+L Device:Q_NMOS_GDS Q1
 U 1 1 61E39176
 P 8200 1175
-F 0 "Q?" V 8542 1175 50  0000 C CNN
+F 0 "Q1" V 8542 1175 50  0000 C CNN
 F 1 "STB45N65M5 NMOS" V 8451 1175 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2" H 8400 1275 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 8400 1275 50  0000 C CNN
 F 3 "~" H 8200 1175 50  0001 C CNN
 	1    8200 1175
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q?
+L Device:Q_NMOS_GDS Q2
 U 1 1 61E3D555
 P 9100 1175
-F 0 "Q?" V 9442 1175 50  0000 C CNN
+F 0 "Q2" V 9442 1175 50  0000 C CNN
 F 1 "STB45N65M5 NMOS" V 9351 1175 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2" H 9300 1275 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 9300 1275 50  0000 C CNN
 F 3 "~" H 9100 1175 50  0001 C CNN
 	1    9100 1175
 	0    1    -1   0   
@@ -1461,35 +1052,21 @@ Text Notes 8050 750  0    50   ~ 0
 Discharge
 Connection ~ 1900 1075
 Wire Wire Line
-	5500 3350 5500 4275
+	5500 4325 12450 4325
 Wire Wire Line
-	5500 4275 12450 4275
-Wire Wire Line
-	12450 4275 12450 5775
-Wire Wire Line
-	12350 4375 5400 4375
-Wire Wire Line
-	5400 4375 5400 1950
-Wire Wire Line
-	12350 4375 12350 5675
-Text Label 5500 3350 0    50   ~ 0
+	12350 4425 5400 4425
+Text Label 6475 4325 0    50   ~ 0
 ChargeEnable
-Text Label 5400 1950 0    50   ~ 0
+Text Label 6475 4425 0    50   ~ 0
 DischargeEnable
 Text Label 7375 2450 0    50   ~ 0
 VsDischarge
-Text Label 7375 2550 0    50   ~ 0
+Text Label 7375 2350 0    50   ~ 0
 HODischarge
 Text Label 7375 3850 0    50   ~ 0
 VsCharge
-Text Label 7375 3950 0    50   ~ 0
+Text Label 7375 3750 0    50   ~ 0
 HOCharge
-Wire Wire Line
-	9100 3950 9100 1700
-Wire Wire Line
-	7150 2550 8200 2550
-Wire Wire Line
-	7150 3950 9100 3950
 Wire Wire Line
 	9300 1075 9825 1075
 Wire Wire Line
@@ -1498,7 +1075,6 @@ Wire Wire Line
 	7300 2450 8675 2450
 Wire Wire Line
 	8675 2450 8675 1075
-Connection ~ 7300 2450
 Connection ~ 8675 1075
 Wire Wire Line
 	8675 1075 8400 1075
@@ -1508,72 +1084,64 @@ Wire Wire Line
 	7300 3850 8675 3850
 Connection ~ 8675 2450
 $Comp
-L Device:R R?
+L Device:R R21
 U 1 1 61FD954D
-P 9375 1850
-F 0 "R?" H 9250 1775 50  0000 C CNN
-F 1 "100k" H 9225 1925 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9305 1850 50  0001 C CNN
-F 3 "~" H 9375 1850 50  0001 C CNN
-	1    9375 1850
+P 9375 1975
+F 0 "R21" H 9250 1900 50  0000 C CNN
+F 1 "100k" H 9225 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9305 1975 50  0000 C CNN
+F 3 "~" H 9375 1975 50  0001 C CNN
+	1    9375 1975
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R10
 U 1 1 61FD9E3B
-P 7950 1850
-F 0 "R?" H 7825 1775 50  0000 C CNN
-F 1 "100k" H 7800 1925 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7880 1850 50  0001 C CNN
-F 3 "~" H 7950 1850 50  0001 C CNN
-	1    7950 1850
+P 7950 1975
+F 0 "R10" H 7825 1900 50  0000 C CNN
+F 1 "100k" H 7800 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7880 1975 50  0000 C CNN
+F 3 "~" H 7950 1975 50  0001 C CNN
+	1    7950 1975
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR018
 U 1 1 61FDB0EB
-P 7950 2050
-F 0 "#PWR?" H 7950 1800 50  0001 C CNN
-F 1 "GND" H 7955 1877 50  0000 C CNN
-F 2 "" H 7950 2050 50  0001 C CNN
-F 3 "" H 7950 2050 50  0001 C CNN
-	1    7950 2050
+P 7950 2175
+F 0 "#PWR018" H 7950 1925 50  0001 C CNN
+F 1 "GND" H 7825 2100 50  0000 C CNN
+F 2 "" H 7950 2175 50  0001 C CNN
+F 3 "" H 7950 2175 50  0001 C CNN
+	1    7950 2175
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR020
 U 1 1 61FDB625
-P 9375 2050
-F 0 "#PWR?" H 9375 1800 50  0001 C CNN
-F 1 "GND" H 9380 1877 50  0000 C CNN
-F 2 "" H 9375 2050 50  0001 C CNN
-F 3 "" H 9375 2050 50  0001 C CNN
-	1    9375 2050
+P 9375 2175
+F 0 "#PWR020" H 9375 1925 50  0001 C CNN
+F 1 "GND" H 9500 2100 50  0000 C CNN
+F 2 "" H 9375 2175 50  0001 C CNN
+F 3 "" H 9375 2175 50  0001 C CNN
+	1    9375 2175
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9375 1700 9100 1700
-Connection ~ 9100 1700
+	9375 1825 9100 1825
 Wire Wire Line
-	9100 1700 9100 1375
+	7950 2175 7950 2125
 Wire Wire Line
-	7950 2050 7950 2000
+	9375 2175 9375 2125
 Wire Wire Line
-	9375 2050 9375 2000
-Wire Wire Line
-	8200 1375 8200 1700
-Wire Wire Line
-	7950 1700 8200 1700
-Connection ~ 8200 1700
-Wire Wire Line
-	8200 1700 8200 2550
+	7950 1825 8200 1825
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J3
 U 1 1 62056020
 P 10025 1075
-F 0 "J?" H 10105 1021 50  0000 L CNN
+F 0 "J3" H 10105 1021 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 10105 976 50  0001 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10025 1075 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10025 1075 50  0000 C CNN
 F 3 "~" H 10025 1075 50  0001 C CNN
 	1    10025 1075
 	1    0    0    -1  
@@ -1581,14 +1149,264 @@ $EndComp
 Wire Wire Line
 	9825 1225 9825 1175
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J2
 U 1 1 62097149
 P 1400 1075
-F 0 "J?" H 1500 1025 50  0000 C CNN
+F 0 "J2" H 1500 1025 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 1480 976 50  0001 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1400 1075 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1400 1075 50  0000 C CNN
 F 3 "~" H 1400 1075 50  0001 C CNN
 	1    1400 1075
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	1900 1075 1900 1625
+Wire Wire Line
+	2900 1625 1900 1625
+Connection ~ 2900 1625
+Wire Wire Line
+	4050 1625 4525 1625
+Wire Wire Line
+	8200 1825 8200 2350
+$Comp
+L Device:R R14
+U 1 1 6213493C
+P 9100 1600
+F 0 "R14" H 8975 1525 50  0000 C CNN
+F 1 "100R" H 8950 1675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 1600 50  0000 C CNN
+F 3 "~" H 9100 1600 50  0001 C CNN
+	1    9100 1600
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 62134F35
+P 8200 1600
+F 0 "R11" H 8075 1525 50  0000 C CNN
+F 1 "100R" H 8050 1675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8130 1600 50  0000 C CNN
+F 3 "~" H 8200 1600 50  0001 C CNN
+	1    8200 1600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9100 1825 9100 1750
+Connection ~ 9100 1825
+Wire Wire Line
+	9100 1450 9100 1375
+Wire Wire Line
+	8200 1450 8200 1375
+Wire Wire Line
+	8200 1825 8200 1750
+Connection ~ 8200 1825
+Wire Wire Line
+	7300 3325 7300 3350
+$Comp
+L Device:CP C7
+U 1 1 6218DA6D
+P 4525 1825
+F 0 "C7" H 4643 1871 50  0000 L CNN
+F 1 "100uF" H 4643 1780 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 4563 1675 50  0000 C CNN
+F 3 "~" H 4525 1825 50  0001 C CNN
+	1    4525 1825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2025 4525 2025
+Wire Wire Line
+	4525 2025 4525 1975
+Connection ~ 4050 2025
+Wire Wire Line
+	4525 1675 4525 1625
+Connection ~ 4525 1625
+$Comp
+L power:GND #PWR010
+U 1 1 6223FEB7
+P 6050 2800
+F 0 "#PWR010" H 6050 2550 50  0001 C CNN
+F 1 "GND" H 5925 2725 50  0000 C CNN
+F 2 "" H 6050 2800 50  0001 C CNN
+F 3 "" H 6050 2800 50  0001 C CNN
+	1    6050 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 6225267C
+P 6950 1625
+F 0 "R5" V 6800 1625 50  0000 C CNN
+F 1 "2R" V 6875 1625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6880 1625 50  0000 C CNN
+F 3 "~" H 6950 1625 50  0001 C CNN
+	1    6950 1625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 1625 7100 1625
+Wire Wire Line
+	4525 1625 5000 1625
+NoConn ~ 6650 2550
+$Comp
+L Driver_FET:LM5109BMA U3
+U 1 1 620C9628
+P 6350 2250
+F 0 "U3" H 6350 2817 50  0000 C CNN
+F 1 "LM5109BMA" H 6350 2726 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6350 1750 50  0000 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm5109b.pdf" H 6350 2250 50  0001 C CNN
+	1    6350 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2750 6050 2800
+Wire Wire Line
+	6050 2550 6050 2750
+Connection ~ 6050 2750
+Wire Wire Line
+	6050 2750 5725 2750
+Wire Wire Line
+	6050 2450 5725 2450
+Wire Wire Line
+	7300 1950 7300 1975
+Wire Wire Line
+	7300 1925 7300 1950
+Connection ~ 7300 1950
+Wire Wire Line
+	7300 1950 6650 1950
+Connection ~ 7300 2450
+Wire Wire Line
+	7300 2450 6650 2450
+Wire Wire Line
+	6050 1950 5000 1950
+Wire Wire Line
+	5000 1950 5000 1625
+Connection ~ 5000 1625
+Wire Wire Line
+	5000 1625 6800 1625
+$Comp
+L Device:R R3
+U 1 1 622A7C68
+P 5725 4000
+F 0 "R3" H 5625 3925 50  0000 C CNN
+F 1 "100k" H 5575 4025 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5655 4000 50  0000 C CNN
+F 3 "~" H 5725 4000 50  0001 C CNN
+	1    5725 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 622A7C76
+P 6950 3025
+F 0 "R6" V 6800 3025 50  0000 C CNN
+F 1 "2R" V 6875 3025 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6880 3025 50  0000 C CNN
+F 3 "~" H 6950 3025 50  0001 C CNN
+	1    6950 3025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 3025 7100 3025
+NoConn ~ 6650 3950
+$Comp
+L Driver_FET:LM5109BMA U4
+U 1 1 622A7C7E
+P 6350 3650
+F 0 "U4" H 6350 4217 50  0000 C CNN
+F 1 "LM5109BMA" H 6350 4126 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6350 3150 50  0000 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm5109b.pdf" H 6350 3650 50  0001 C CNN
+	1    6350 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3850 5725 3850
+Wire Wire Line
+	7300 3850 6650 3850
+Wire Wire Line
+	6050 3350 5000 3350
+Wire Wire Line
+	5000 3025 6800 3025
+Wire Wire Line
+	5000 3350 5000 3025
+Wire Wire Line
+	5000 3025 5000 1950
+Connection ~ 5000 3025
+Connection ~ 5000 1950
+Wire Wire Line
+	12350 4425 12350 5675
+Wire Wire Line
+	12450 4325 12450 5775
+Wire Wire Line
+	6050 4150 5725 4150
+Connection ~ 6050 4150
+Wire Wire Line
+	6050 3950 6050 4150
+Wire Wire Line
+	6050 4150 6050 4200
+$Comp
+L power:GND #PWR011
+U 1 1 622A7C70
+P 6050 4200
+F 0 "#PWR011" H 6050 3950 50  0001 C CNN
+F 1 "GND" H 5925 4125 50  0000 C CNN
+F 2 "" H 6050 4200 50  0001 C CNN
+F 3 "" H 6050 4200 50  0001 C CNN
+	1    6050 4200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4325 5500 3750
+Wire Wire Line
+	5500 3750 6050 3750
+Wire Wire Line
+	5400 4425 5400 2350
+Wire Wire Line
+	5400 2350 6050 2350
+Wire Wire Line
+	7300 3675 7300 3850
+Connection ~ 7300 3850
+Wire Wire Line
+	6650 3350 7300 3350
+Connection ~ 7300 3350
+Wire Wire Line
+	7300 3350 7300 3375
+Wire Wire Line
+	6650 2350 8200 2350
+Wire Wire Line
+	9100 3750 9100 1825
+Wire Wire Line
+	6650 3750 9100 3750
+$Comp
+L Device:D_ALT D2
+U 1 1 623A7B88
+P 7300 3175
+F 0 "D2" V 7250 3025 50  0000 C CNN
+F 1 "1N6263W-7-F 1A" V 7500 2950 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 7300 3175 50  0000 C CNN
+F 3 "~" H 7300 3175 50  0001 C CNN
+	1    7300 3175
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	900  7675 1900 7675
+Connection ~ 1900 7675
+Wire Wire Line
+	900  7775 3325 7775
+Wire Wire Line
+	900  7875 3325 7875
+Wire Wire Line
+	900  7975 3325 7975
+Wire Wire Line
+	900  8075 3325 8075
+Wire Wire Line
+	900  8175 3325 8175
+Wire Wire Line
+	900  8275 3325 8275
+Connection ~ 1900 5325
+Connection ~ 1900 1625
+Wire Wire Line
+	1900 1625 1900 5325
 $EndSCHEMATC

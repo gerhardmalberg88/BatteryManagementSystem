@@ -13,84 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:R R?
-U 1 1 61625C76
-P 5875 11100
-AR Path="/61625C76" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625C76" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 11100 50  0000 C CNN
-F 1 "400R" V 5950 11100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 11100 50  0001 C CNN
-F 3 "~" H 5875 11100 50  0001 C CNN
-	1    5875 11100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:Q_NMOS_GDS Q?
-U 1 1 61625C7F
-P 4400 10225
-AR Path="/61625C7F" Ref="Q?"  Part="1" 
-AR Path="/615CA4D2/61625C7F" Ref="Q?"  Part="1" 
-F 0 "Q?" H 4605 10271 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 4605 10180 50  0000 L CNN
-F 2 "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET" H 4600 10325 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/csd16340q3.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1620668759872&ref_url=https%253A%252F%252Fwww.digikey.fi%252F" H 4400 10225 50  0001 C CNN
-	1    4400 10225
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky D?
-U 1 1 61625C85
-P 4925 10425
-AR Path="/61625C85" Ref="D?"  Part="1" 
-AR Path="/615CA4D2/61625C85" Ref="D?"  Part="1" 
-F 0 "D?" V 4879 10505 50  0000 L CNN
-F 1 "TVS_5.1V" V 4965 10505 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323" H 4925 10425 50  0001 C CNN
-F 3 "~" H 4925 10425 50  0001 C CNN
-	1    4925 10425
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61625C8B
-P 4300 9825
-AR Path="/61625C8B" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625C8B" Ref="R?"  Part="1" 
-F 0 "R?" H 4370 9871 50  0000 L CNN
-F 1 "0R750" H 4370 9780 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2_TabPin1" V 4230 9825 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR263S-35.pdf" H 4300 9825 50  0001 C CNN
-	1    4300 9825
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61625C91
-P 5875 10225
-AR Path="/61625C91" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625C91" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 10225 50  0000 C CNN
-F 1 "1k" V 5950 10225 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5805 10225 50  0001 C CNN
-F 3 "~" H 5875 10225 50  0001 C CNN
-	1    5875 10225
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61625C97
-P 5875 10825
-AR Path="/61625C97" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625C97" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 10825 50  0000 C CNN
-F 1 "100R" V 5950 10825 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 10825 50  0001 C CNN
-F 3 "~" H 5875 10825 50  0001 C CNN
-	1    5875 10825
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4300 10025 4300 9975
 Wire Wire Line
@@ -143,8 +65,8 @@ L Device:R R?
 U 1 1 61625CD1
 P 5875 9325
 AR Path="/61625CD1" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625CD1" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 9325 50  0000 C CNN
+AR Path="/615CA4D2/61625CD1" Ref="R45"  Part="1" 
+F 0 "R45" V 6025 9325 50  0000 C CNN
 F 1 "400R" V 5950 9325 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 9325 50  0001 C CNN
 F 3 "~" H 5875 9325 50  0001 C CNN
@@ -152,25 +74,12 @@ F 3 "~" H 5875 9325 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q?
-U 1 1 61625CD7
-P 4400 8450
-AR Path="/61625CD7" Ref="Q?"  Part="1" 
-AR Path="/615CA4D2/61625CD7" Ref="Q?"  Part="1" 
-F 0 "Q?" H 4605 8496 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 4605 8405 50  0000 L CNN
-F 2 "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET" H 4600 8550 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/csd16340q3.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1620668759872&ref_url=https%253A%252F%252Fwww.digikey.fi%252F" H 4400 8450 50  0001 C CNN
-	1    4400 8450
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:D_Schottky D?
 U 1 1 61625CDD
 P 4925 8650
 AR Path="/61625CDD" Ref="D?"  Part="1" 
-AR Path="/615CA4D2/61625CDD" Ref="D?"  Part="1" 
-F 0 "D?" V 4879 8730 50  0000 L CNN
+AR Path="/615CA4D2/61625CDD" Ref="D7"  Part="1" 
+F 0 "D7" V 4879 8730 50  0000 L CNN
 F 1 "TVS_5.1V" V 4965 8730 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323" H 4925 8650 50  0001 C CNN
 F 3 "~" H 4925 8650 50  0001 C CNN
@@ -179,37 +88,11 @@ F 3 "~" H 4925 8650 50  0001 C CNN
 $EndComp
 $Comp
 L Device:R R?
-U 1 1 61625CE3
-P 4300 8050
-AR Path="/61625CE3" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625CE3" Ref="R?"  Part="1" 
-F 0 "R?" H 4370 8096 50  0000 L CNN
-F 1 "0R750" H 4370 8005 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2_TabPin1" V 4230 8050 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR263S-35.pdf" H 4300 8050 50  0001 C CNN
-	1    4300 8050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61625CE9
-P 5875 8450
-AR Path="/61625CE9" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625CE9" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 8450 50  0000 C CNN
-F 1 "1k" V 5950 8450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5805 8450 50  0001 C CNN
-F 3 "~" H 5875 8450 50  0001 C CNN
-	1    5875 8450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
 U 1 1 61625CEF
 P 5875 9050
 AR Path="/61625CEF" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625CEF" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 9050 50  0000 C CNN
+AR Path="/615CA4D2/61625CEF" Ref="R44"  Part="1" 
+F 0 "R44" V 6025 9050 50  0000 C CNN
 F 1 "100R" V 5950 9050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 9050 50  0001 C CNN
 F 3 "~" H 5875 9050 50  0001 C CNN
@@ -279,8 +162,8 @@ L Device:R R?
 U 1 1 61625D33
 P 5875 7550
 AR Path="/61625D33" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625D33" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 7550 50  0000 C CNN
+AR Path="/615CA4D2/61625D33" Ref="R42"  Part="1" 
+F 0 "R42" V 6025 7550 50  0000 C CNN
 F 1 "400R" V 5950 7550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 7550 50  0001 C CNN
 F 3 "~" H 5875 7550 50  0001 C CNN
@@ -288,25 +171,12 @@ F 3 "~" H 5875 7550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q?
-U 1 1 61625D39
-P 4400 6675
-AR Path="/61625D39" Ref="Q?"  Part="1" 
-AR Path="/615CA4D2/61625D39" Ref="Q?"  Part="1" 
-F 0 "Q?" H 4605 6721 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 4605 6630 50  0000 L CNN
-F 2 "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET" H 4600 6775 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/csd16340q3.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1620668759872&ref_url=https%253A%252F%252Fwww.digikey.fi%252F" H 4400 6675 50  0001 C CNN
-	1    4400 6675
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:D_Schottky D?
 U 1 1 61625D3F
 P 4925 6875
 AR Path="/61625D3F" Ref="D?"  Part="1" 
-AR Path="/615CA4D2/61625D3F" Ref="D?"  Part="1" 
-F 0 "D?" V 4879 6955 50  0000 L CNN
+AR Path="/615CA4D2/61625D3F" Ref="D6"  Part="1" 
+F 0 "D6" V 4879 6955 50  0000 L CNN
 F 1 "TVS_5.1V" V 4965 6955 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323" H 4925 6875 50  0001 C CNN
 F 3 "~" H 4925 6875 50  0001 C CNN
@@ -318,8 +188,8 @@ L Device:R R?
 U 1 1 61625D45
 P 4300 6275
 AR Path="/61625D45" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625D45" Ref="R?"  Part="1" 
-F 0 "R?" H 4370 6321 50  0000 L CNN
+AR Path="/615CA4D2/61625D45" Ref="R26"  Part="1" 
+F 0 "R26" H 4370 6321 50  0000 L CNN
 F 1 "0R750" H 4370 6230 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2_TabPin1" V 4230 6275 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR263S-35.pdf" H 4300 6275 50  0001 C CNN
@@ -328,24 +198,11 @@ F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR263S-35.pdf" H 4300 6275 
 $EndComp
 $Comp
 L Device:R R?
-U 1 1 61625D4B
-P 5875 6675
-AR Path="/61625D4B" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625D4B" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 6675 50  0000 C CNN
-F 1 "1k" V 5950 6675 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5805 6675 50  0001 C CNN
-F 3 "~" H 5875 6675 50  0001 C CNN
-	1    5875 6675
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
 U 1 1 61625D51
 P 5875 7275
 AR Path="/61625D51" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625D51" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 7275 50  0000 C CNN
+AR Path="/615CA4D2/61625D51" Ref="R41"  Part="1" 
+F 0 "R41" V 6025 7275 50  0000 C CNN
 F 1 "100R" V 5950 7275 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 7275 50  0001 C CNN
 F 3 "~" H 5875 7275 50  0001 C CNN
@@ -414,8 +271,8 @@ L Device:R R?
 U 1 1 61625D92
 P 5875 5775
 AR Path="/61625D92" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625D92" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 5775 50  0000 C CNN
+AR Path="/615CA4D2/61625D92" Ref="R39"  Part="1" 
+F 0 "R39" V 6025 5775 50  0000 C CNN
 F 1 "400R" V 5950 5775 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 5775 50  0001 C CNN
 F 3 "~" H 5875 5775 50  0001 C CNN
@@ -423,25 +280,12 @@ F 3 "~" H 5875 5775 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q?
-U 1 1 61625D98
-P 4400 4900
-AR Path="/61625D98" Ref="Q?"  Part="1" 
-AR Path="/615CA4D2/61625D98" Ref="Q?"  Part="1" 
-F 0 "Q?" H 4605 4946 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 4605 4855 50  0000 L CNN
-F 2 "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET" H 4600 5000 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/csd16340q3.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1620668759872&ref_url=https%253A%252F%252Fwww.digikey.fi%252F" H 4400 4900 50  0001 C CNN
-	1    4400 4900
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:D_Schottky D?
 U 1 1 61625D9E
 P 4925 5100
 AR Path="/61625D9E" Ref="D?"  Part="1" 
-AR Path="/615CA4D2/61625D9E" Ref="D?"  Part="1" 
-F 0 "D?" V 4879 5180 50  0000 L CNN
+AR Path="/615CA4D2/61625D9E" Ref="D5"  Part="1" 
+F 0 "D5" V 4879 5180 50  0000 L CNN
 F 1 "TVS_5.1V" V 4965 5180 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323" H 4925 5100 50  0001 C CNN
 F 3 "~" H 4925 5100 50  0001 C CNN
@@ -453,8 +297,8 @@ L Device:R R?
 U 1 1 61625DA4
 P 4300 4500
 AR Path="/61625DA4" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625DA4" Ref="R?"  Part="1" 
-F 0 "R?" H 4370 4546 50  0000 L CNN
+AR Path="/615CA4D2/61625DA4" Ref="R25"  Part="1" 
+F 0 "R25" H 4370 4546 50  0000 L CNN
 F 1 "0R750" H 4370 4455 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2_TabPin1" V 4230 4500 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR263S-35.pdf" H 4300 4500 50  0001 C CNN
@@ -463,24 +307,11 @@ F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR263S-35.pdf" H 4300 4500 
 $EndComp
 $Comp
 L Device:R R?
-U 1 1 61625DAA
-P 5875 4900
-AR Path="/61625DAA" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625DAA" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 4900 50  0000 C CNN
-F 1 "1k" V 5950 4900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5805 4900 50  0001 C CNN
-F 3 "~" H 5875 4900 50  0001 C CNN
-	1    5875 4900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
 U 1 1 61625DB0
 P 5875 5500
 AR Path="/61625DB0" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625DB0" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 5500 50  0000 C CNN
+AR Path="/615CA4D2/61625DB0" Ref="R38"  Part="1" 
+F 0 "R38" V 6025 5500 50  0000 C CNN
 F 1 "100R" V 5950 5500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 5500 50  0001 C CNN
 F 3 "~" H 5875 5500 50  0001 C CNN
@@ -549,8 +380,8 @@ L Device:R R?
 U 1 1 61625DF1
 P 5875 4000
 AR Path="/61625DF1" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625DF1" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 4000 50  0000 C CNN
+AR Path="/615CA4D2/61625DF1" Ref="R36"  Part="1" 
+F 0 "R36" V 6025 4000 50  0000 C CNN
 F 1 "400R" V 5950 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 4000 50  0001 C CNN
 F 3 "~" H 5875 4000 50  0001 C CNN
@@ -558,25 +389,12 @@ F 3 "~" H 5875 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q?
-U 1 1 61625DF7
-P 4400 3125
-AR Path="/61625DF7" Ref="Q?"  Part="1" 
-AR Path="/615CA4D2/61625DF7" Ref="Q?"  Part="1" 
-F 0 "Q?" H 4605 3171 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 4605 3080 50  0000 L CNN
-F 2 "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET" H 4600 3225 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/csd16340q3.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1620668759872&ref_url=https%253A%252F%252Fwww.digikey.fi%252F" H 4400 3125 50  0001 C CNN
-	1    4400 3125
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:D_Schottky D?
 U 1 1 61625DFD
 P 4925 3325
 AR Path="/61625DFD" Ref="D?"  Part="1" 
-AR Path="/615CA4D2/61625DFD" Ref="D?"  Part="1" 
-F 0 "D?" V 4879 3405 50  0000 L CNN
+AR Path="/615CA4D2/61625DFD" Ref="D4"  Part="1" 
+F 0 "D4" V 4879 3405 50  0000 L CNN
 F 1 "TVS_5.1V" V 4965 3405 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323" H 4925 3325 50  0001 C CNN
 F 3 "~" H 4925 3325 50  0001 C CNN
@@ -588,8 +406,8 @@ L Device:R R?
 U 1 1 61625E03
 P 4300 2725
 AR Path="/61625E03" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625E03" Ref="R?"  Part="1" 
-F 0 "R?" H 4370 2771 50  0000 L CNN
+AR Path="/615CA4D2/61625E03" Ref="R24"  Part="1" 
+F 0 "R24" H 4370 2771 50  0000 L CNN
 F 1 "0R750" H 4370 2680 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2_TabPin1" V 4230 2725 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR263S-35.pdf" H 4300 2725 50  0001 C CNN
@@ -598,24 +416,11 @@ F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR263S-35.pdf" H 4300 2725 
 $EndComp
 $Comp
 L Device:R R?
-U 1 1 61625E09
-P 5875 3125
-AR Path="/61625E09" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625E09" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 3125 50  0000 C CNN
-F 1 "1k" V 5950 3125 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5805 3125 50  0001 C CNN
-F 3 "~" H 5875 3125 50  0001 C CNN
-	1    5875 3125
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
 U 1 1 61625E0F
 P 5875 3725
 AR Path="/61625E0F" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625E0F" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 3725 50  0000 C CNN
+AR Path="/615CA4D2/61625E0F" Ref="R35"  Part="1" 
+F 0 "R35" V 6025 3725 50  0000 C CNN
 F 1 "100R" V 5950 3725 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 3725 50  0001 C CNN
 F 3 "~" H 5875 3725 50  0001 C CNN
@@ -684,8 +489,8 @@ L Device:R R?
 U 1 1 61625E50
 P 5875 2150
 AR Path="/61625E50" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625E50" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 2150 50  0000 C CNN
+AR Path="/615CA4D2/61625E50" Ref="R33"  Part="1" 
+F 0 "R33" V 6025 2150 50  0000 C CNN
 F 1 "400R" V 5950 2150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 2150 50  0001 C CNN
 F 3 "~" H 5875 2150 50  0001 C CNN
@@ -693,25 +498,12 @@ F 3 "~" H 5875 2150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q?
-U 1 1 61625E56
-P 4400 1275
-AR Path="/61625E56" Ref="Q?"  Part="1" 
-AR Path="/615CA4D2/61625E56" Ref="Q?"  Part="1" 
-F 0 "Q?" H 4605 1321 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 4605 1230 50  0000 L CNN
-F 2 "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET" H 4600 1375 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/csd16340q3.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1620668759872&ref_url=https%253A%252F%252Fwww.digikey.fi%252F" H 4400 1275 50  0001 C CNN
-	1    4400 1275
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:D_Schottky D?
 U 1 1 61625E5C
 P 4925 1475
 AR Path="/61625E5C" Ref="D?"  Part="1" 
-AR Path="/615CA4D2/61625E5C" Ref="D?"  Part="1" 
-F 0 "D?" V 4879 1555 50  0000 L CNN
+AR Path="/615CA4D2/61625E5C" Ref="D3"  Part="1" 
+F 0 "D3" V 4879 1555 50  0000 L CNN
 F 1 "TVS_5.1V" V 4965 1555 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323" H 4925 1475 50  0001 C CNN
 F 3 "~" H 4925 1475 50  0001 C CNN
@@ -723,8 +515,8 @@ L Device:R R?
 U 1 1 61625E62
 P 4300 875
 AR Path="/61625E62" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625E62" Ref="R?"  Part="1" 
-F 0 "R?" H 4370 921 50  0000 L CNN
+AR Path="/615CA4D2/61625E62" Ref="R23"  Part="1" 
+F 0 "R23" H 4370 921 50  0000 L CNN
 F 1 "0R750" H 4370 830 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2_TabPin1" V 4230 875 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR263S-35.pdf" H 4300 875 50  0001 C CNN
@@ -733,24 +525,11 @@ F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR263S-35.pdf" H 4300 875 5
 $EndComp
 $Comp
 L Device:R R?
-U 1 1 61625E68
-P 5875 1275
-AR Path="/61625E68" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625E68" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 1275 50  0000 C CNN
-F 1 "1k" V 5950 1275 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 1275 50  0001 C CNN
-F 3 "~" H 5875 1275 50  0001 C CNN
-	1    5875 1275
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
 U 1 1 61625E6E
 P 5875 1875
 AR Path="/61625E6E" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625E6E" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 1875 50  0000 C CNN
+AR Path="/615CA4D2/61625E6E" Ref="R32"  Part="1" 
+F 0 "R32" V 6025 1875 50  0000 C CNN
 F 1 "100R" V 5950 1875 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 1875 50  0001 C CNN
 F 3 "~" H 5875 1875 50  0001 C CNN
@@ -762,8 +541,8 @@ L Device:C C?
 U 1 1 61625E74
 P 6275 1475
 AR Path="/61625E74" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/61625E74" Ref="C?"  Part="1" 
-F 0 "C?" H 6390 1521 50  0000 L CNN
+AR Path="/615CA4D2/61625E74" Ref="C21"  Part="1" 
+F 0 "C21" H 6390 1521 50  0000 L CNN
 F 1 "1uF" H 6390 1430 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6313 1325 50  0001 C CNN
 F 3 "~" H 6275 1475 50  0001 C CNN
@@ -775,8 +554,8 @@ L Device:C C?
 U 1 1 61625E7A
 P 5525 1475
 AR Path="/61625E7A" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/61625E7A" Ref="C?"  Part="1" 
-F 0 "C?" H 5640 1521 50  0000 L CNN
+AR Path="/615CA4D2/61625E7A" Ref="C15"  Part="1" 
+F 0 "C15" H 5640 1521 50  0000 L CNN
 F 1 "1nF" H 5640 1430 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5563 1325 50  0001 C CNN
 F 3 "~" H 5525 1475 50  0001 C CNN
@@ -837,8 +616,8 @@ L Device:C C?
 U 1 1 61625E9C
 P 6650 1475
 AR Path="/61625E9C" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/61625E9C" Ref="C?"  Part="1" 
-F 0 "C?" H 6765 1521 50  0000 L CNN
+AR Path="/615CA4D2/61625E9C" Ref="C27"  Part="1" 
+F 0 "C27" H 6765 1521 50  0000 L CNN
 F 1 "1uF" H 6765 1430 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 1325 50  0001 C CNN
 F 3 "~" H 6650 1475 50  0001 C CNN
@@ -865,8 +644,8 @@ L Device:R R?
 U 1 1 61625EAF
 P 5875 975
 AR Path="/61625EAF" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625EAF" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 975 50  0000 C CNN
+AR Path="/615CA4D2/61625EAF" Ref="R30"  Part="1" 
+F 0 "R30" V 6025 975 50  0000 C CNN
 F 1 "400R" V 5950 975 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 975 50  0001 C CNN
 F 3 "~" H 5875 975 50  0001 C CNN
@@ -878,8 +657,8 @@ L Device:R R?
 U 1 1 61625EB5
 P 5875 700
 AR Path="/61625EB5" Ref="R?"  Part="1" 
-AR Path="/615CA4D2/61625EB5" Ref="R?"  Part="1" 
-F 0 "R?" V 6025 700 50  0000 C CNN
+AR Path="/615CA4D2/61625EB5" Ref="R29"  Part="1" 
+F 0 "R29" V 6025 700 50  0000 C CNN
 F 1 "100R" V 5950 700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 700 50  0001 C CNN
 F 3 "~" H 5875 700 50  0001 C CNN
@@ -974,19 +753,6 @@ Wire Wire Line
 	6275 700  8500 700 
 Wire Wire Line
 	6650 975  8500 975 
-$Comp
-L Device:C C?
-U 1 1 6178C450
-P 8275 10650
-AR Path="/6178C450" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/6178C450" Ref="C?"  Part="1" 
-F 0 "C?" H 8390 10696 50  0000 L CNN
-F 1 "470nF 16V" H 8390 10605 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8313 10500 50  0001 C CNN
-F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0603/16548-chipc-0603-470n.html" H 8275 10650 50  0001 C CNN
-	1    8275 10650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8275 10850 8275 10800
 Wire Wire Line
@@ -1002,10 +768,10 @@ Wire Wire Line
 Connection ~ 8275 10450
 Connection ~ 6275 10825
 $Comp
-L power:GND #PWR?
+L power:GND #PWR024
 U 1 1 6159BFB1
 P 8275 10850
-F 0 "#PWR?" H 8275 10600 50  0001 C CNN
+F 0 "#PWR024" H 8275 10600 50  0001 C CNN
 F 1 "GND" H 8280 10677 50  0000 C CNN
 F 2 "" H 8275 10850 50  0001 C CNN
 F 3 "" H 8275 10850 50  0001 C CNN
@@ -1013,14 +779,14 @@ F 3 "" H 8275 10850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6025 3725 6275 3725
+	6025 3725 6100 3725
 $Comp
 L Device:C C?
 U 1 1 6159E9F5
 P 6275 3325
 AR Path="/6159E9F5" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/6159E9F5" Ref="C?"  Part="1" 
-F 0 "C?" H 6390 3371 50  0000 L CNN
+AR Path="/615CA4D2/6159E9F5" Ref="C22"  Part="1" 
+F 0 "C22" H 6390 3371 50  0000 L CNN
 F 1 "1uF" H 6390 3280 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6313 3175 50  0001 C CNN
 F 3 "~" H 6275 3325 50  0001 C CNN
@@ -1032,23 +798,21 @@ L Device:C C?
 U 1 1 6159E9FB
 P 5525 3325
 AR Path="/6159E9FB" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/6159E9FB" Ref="C?"  Part="1" 
-F 0 "C?" H 5640 3371 50  0000 L CNN
+AR Path="/615CA4D2/6159E9FB" Ref="C16"  Part="1" 
+F 0 "C16" H 5640 3371 50  0000 L CNN
 F 1 "1nF" H 5640 3280 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5563 3175 50  0001 C CNN
 F 3 "~" H 5525 3325 50  0001 C CNN
 	1    5525 3325
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 3125 6100 3725
 $Comp
 L Device:C C?
 U 1 1 6159EA02
 P 6650 3325
 AR Path="/6159EA02" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/6159EA02" Ref="C?"  Part="1" 
-F 0 "C?" H 6765 3371 50  0000 L CNN
+AR Path="/615CA4D2/6159EA02" Ref="C28"  Part="1" 
+F 0 "C28" H 6765 3371 50  0000 L CNN
 F 1 "1uF" H 6765 3280 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 3175 50  0001 C CNN
 F 3 "~" H 6650 3325 50  0001 C CNN
@@ -1056,14 +820,14 @@ F 3 "~" H 6650 3325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6025 5500 6275 5500
+	6025 5500 6100 5500
 $Comp
 L Device:C C?
 U 1 1 615A88BB
 P 6275 5100
 AR Path="/615A88BB" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/615A88BB" Ref="C?"  Part="1" 
-F 0 "C?" H 6390 5146 50  0000 L CNN
+AR Path="/615CA4D2/615A88BB" Ref="C23"  Part="1" 
+F 0 "C23" H 6390 5146 50  0000 L CNN
 F 1 "1uF" H 6390 5055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6313 4950 50  0001 C CNN
 F 3 "~" H 6275 5100 50  0001 C CNN
@@ -1075,23 +839,21 @@ L Device:C C?
 U 1 1 615A88C1
 P 5525 5100
 AR Path="/615A88C1" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/615A88C1" Ref="C?"  Part="1" 
-F 0 "C?" H 5640 5146 50  0000 L CNN
+AR Path="/615CA4D2/615A88C1" Ref="C17"  Part="1" 
+F 0 "C17" H 5640 5146 50  0000 L CNN
 F 1 "1nF" H 5640 5055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5563 4950 50  0001 C CNN
 F 3 "~" H 5525 5100 50  0001 C CNN
 	1    5525 5100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 4900 6100 5500
 $Comp
 L Device:C C?
 U 1 1 615A88C8
 P 6650 5100
 AR Path="/615A88C8" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/615A88C8" Ref="C?"  Part="1" 
-F 0 "C?" H 6765 5146 50  0000 L CNN
+AR Path="/615CA4D2/615A88C8" Ref="C29"  Part="1" 
+F 0 "C29" H 6765 5146 50  0000 L CNN
 F 1 "1uF" H 6765 5055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 4950 50  0001 C CNN
 F 3 "~" H 6650 5100 50  0001 C CNN
@@ -1099,14 +861,14 @@ F 3 "~" H 6650 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6025 7275 6275 7275
+	6025 7275 6100 7275
 $Comp
 L Device:C C?
 U 1 1 615B24B6
 P 6275 6875
 AR Path="/615B24B6" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/615B24B6" Ref="C?"  Part="1" 
-F 0 "C?" H 6390 6921 50  0000 L CNN
+AR Path="/615CA4D2/615B24B6" Ref="C24"  Part="1" 
+F 0 "C24" H 6390 6921 50  0000 L CNN
 F 1 "1uF" H 6390 6830 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6313 6725 50  0001 C CNN
 F 3 "~" H 6275 6875 50  0001 C CNN
@@ -1118,23 +880,21 @@ L Device:C C?
 U 1 1 615B24BC
 P 5525 6875
 AR Path="/615B24BC" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/615B24BC" Ref="C?"  Part="1" 
-F 0 "C?" H 5640 6921 50  0000 L CNN
+AR Path="/615CA4D2/615B24BC" Ref="C18"  Part="1" 
+F 0 "C18" H 5640 6921 50  0000 L CNN
 F 1 "1nF" H 5640 6830 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5563 6725 50  0001 C CNN
 F 3 "~" H 5525 6875 50  0001 C CNN
 	1    5525 6875
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 6675 6100 7275
 $Comp
 L Device:C C?
 U 1 1 615B24C3
 P 6650 6875
 AR Path="/615B24C3" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/615B24C3" Ref="C?"  Part="1" 
-F 0 "C?" H 6765 6921 50  0000 L CNN
+AR Path="/615CA4D2/615B24C3" Ref="C30"  Part="1" 
+F 0 "C30" H 6765 6921 50  0000 L CNN
 F 1 "1uF" H 6765 6830 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 6725 50  0001 C CNN
 F 3 "~" H 6650 6875 50  0001 C CNN
@@ -1142,14 +902,14 @@ F 3 "~" H 6650 6875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6025 9050 6275 9050
+	6025 9050 6100 9050
 $Comp
 L Device:C C?
 U 1 1 615BBC16
 P 6275 8650
 AR Path="/615BBC16" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/615BBC16" Ref="C?"  Part="1" 
-F 0 "C?" H 6390 8696 50  0000 L CNN
+AR Path="/615CA4D2/615BBC16" Ref="C25"  Part="1" 
+F 0 "C25" H 6390 8696 50  0000 L CNN
 F 1 "1uF" H 6390 8605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6313 8500 50  0001 C CNN
 F 3 "~" H 6275 8650 50  0001 C CNN
@@ -1161,23 +921,21 @@ L Device:C C?
 U 1 1 615BBC1C
 P 5525 8650
 AR Path="/615BBC1C" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/615BBC1C" Ref="C?"  Part="1" 
-F 0 "C?" H 5640 8696 50  0000 L CNN
+AR Path="/615CA4D2/615BBC1C" Ref="C19"  Part="1" 
+F 0 "C19" H 5640 8696 50  0000 L CNN
 F 1 "1nF" H 5640 8605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5563 8500 50  0001 C CNN
 F 3 "~" H 5525 8650 50  0001 C CNN
 	1    5525 8650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 8450 6100 9050
 $Comp
 L Device:C C?
 U 1 1 615BBC23
 P 6650 8650
 AR Path="/615BBC23" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/615BBC23" Ref="C?"  Part="1" 
-F 0 "C?" H 6765 8696 50  0000 L CNN
+AR Path="/615CA4D2/615BBC23" Ref="C31"  Part="1" 
+F 0 "C31" H 6765 8696 50  0000 L CNN
 F 1 "1uF" H 6765 8605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 8500 50  0001 C CNN
 F 3 "~" H 6650 8650 50  0001 C CNN
@@ -1185,18 +943,239 @@ F 3 "~" H 6650 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6025 10825 6275 10825
+	6025 10825 6100 10825
+Wire Wire Line
+	6100 10225 6100 10825
+Connection ~ 6100 10825
+Wire Wire Line
+	6100 10825 6275 10825
+Wire Wire Line
+	6100 8450 6100 9050
+Connection ~ 6100 9050
+Wire Wire Line
+	6100 9050 6275 9050
+Wire Wire Line
+	6100 7275 6100 6675
+Connection ~ 6100 7275
+Wire Wire Line
+	6100 7275 6275 7275
+Wire Wire Line
+	6100 5500 6100 4900
+Connection ~ 6100 5500
+Wire Wire Line
+	6100 5500 6275 5500
+Wire Wire Line
+	6100 3725 6100 3125
+Connection ~ 6100 3725
+Wire Wire Line
+	6100 3725 6275 3725
+$Comp
+L Device:R R?
+U 1 1 624FEDDD
+P 5875 8450
+AR Path="/624FEDDD" Ref="R?"  Part="1" 
+AR Path="/615CA4D2/624FEDDD" Ref="R43"  Part="1" 
+F 0 "R43" V 6025 8450 50  0000 C CNN
+F 1 "1k" V 5950 8450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 8450 50  0001 C CNN
+F 3 "~" H 5875 8450 50  0001 C CNN
+	1    5875 8450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 624FF529
+P 5875 6675
+AR Path="/624FF529" Ref="R?"  Part="1" 
+AR Path="/615CA4D2/624FF529" Ref="R40"  Part="1" 
+F 0 "R40" V 6025 6675 50  0000 C CNN
+F 1 "1k" V 5950 6675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 6675 50  0001 C CNN
+F 3 "~" H 5875 6675 50  0001 C CNN
+	1    5875 6675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 624FFCCB
+P 5875 4900
+AR Path="/624FFCCB" Ref="R?"  Part="1" 
+AR Path="/615CA4D2/624FFCCB" Ref="R37"  Part="1" 
+F 0 "R37" V 6025 4900 50  0000 C CNN
+F 1 "1k" V 5950 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 4900 50  0001 C CNN
+F 3 "~" H 5875 4900 50  0001 C CNN
+	1    5875 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62500491
+P 5875 3125
+AR Path="/62500491" Ref="R?"  Part="1" 
+AR Path="/615CA4D2/62500491" Ref="R34"  Part="1" 
+F 0 "R34" V 6025 3125 50  0000 C CNN
+F 1 "1k" V 5950 3125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 3125 50  0001 C CNN
+F 3 "~" H 5875 3125 50  0001 C CNN
+	1    5875 3125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62500BE2
+P 5875 1275
+AR Path="/62500BE2" Ref="R?"  Part="1" 
+AR Path="/615CA4D2/62500BE2" Ref="R31"  Part="1" 
+F 0 "R31" V 6025 1275 50  0000 C CNN
+F 1 "1k" V 5950 1275 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 1275 50  0001 C CNN
+F 3 "~" H 5875 1275 50  0001 C CNN
+	1    5875 1275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_FET:CSD16342Q5A Q6
+U 1 1 6250DEBE
+P 4400 6675
+F 0 "Q6" H 4605 6721 50  0000 L CNN
+F 1 "CSD16342Q5A" H 4605 6630 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 4600 6600 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd16342q5a" V 4400 6675 50  0001 L CNN
+	1    4400 6675
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:CSD16342Q5A Q8
+U 1 1 62525E57
+P 4400 10225
+F 0 "Q8" H 4605 10271 50  0000 L CNN
+F 1 "CSD16342Q5A" H 4605 10180 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 4600 10150 50  0000 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd16342q5a" V 4400 10225 50  0001 L CNN
+	1    4400 10225
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:CSD16342Q5A Q7
+U 1 1 625286EE
+P 4400 8450
+F 0 "Q7" H 4605 8496 50  0000 L CNN
+F 1 "CSD16342Q5A" H 4605 8405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 4600 8375 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd16342q5a" V 4400 8450 50  0001 L CNN
+	1    4400 8450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:CSD16342Q5A Q5
+U 1 1 6253B61B
+P 4400 4900
+F 0 "Q5" H 4605 4946 50  0000 L CNN
+F 1 "CSD16342Q5A" H 4605 4855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 4600 4825 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd16342q5a" V 4400 4900 50  0001 L CNN
+	1    4400 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:CSD16342Q5A Q4
+U 1 1 6253FDA5
+P 4400 3125
+F 0 "Q4" H 4605 3171 50  0000 L CNN
+F 1 "CSD16342Q5A" H 4605 3080 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 4600 3050 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd16342q5a" V 4400 3125 50  0001 L CNN
+	1    4400 3125
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:CSD16342Q5A Q3
+U 1 1 62544A27
+P 4400 1275
+F 0 "Q3" H 4605 1321 50  0000 L CNN
+F 1 "CSD16342Q5A" H 4605 1230 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 4600 1200 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd16342q5a" V 4400 1275 50  0001 L CNN
+	1    4400 1275
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61625C8B
+P 4300 9825
+AR Path="/61625C8B" Ref="R?"  Part="1" 
+AR Path="/615CA4D2/61625C8B" Ref="R28"  Part="1" 
+F 0 "R28" H 4370 9871 50  0000 L CNN
+F 1 "0R750" H 4370 9780 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2_TabPin1" V 4230 9825 50  0000 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR263S-35.pdf" H 4300 9825 50  0001 C CNN
+	1    4300 9825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61625CE3
+P 4300 8050
+AR Path="/61625CE3" Ref="R?"  Part="1" 
+AR Path="/615CA4D2/61625CE3" Ref="R27"  Part="1" 
+F 0 "R27" H 4370 8096 50  0000 L CNN
+F 1 "0R750" H 4370 8005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2_TabPin1" V 4230 8050 50  0000 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR263S-35.pdf" H 4300 8050 50  0001 C CNN
+	1    4300 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 61625C85
+P 4925 10425
+AR Path="/61625C85" Ref="D?"  Part="1" 
+AR Path="/615CA4D2/61625C85" Ref="D8"  Part="1" 
+F 0 "D8" V 4879 10505 50  0000 L CNN
+F 1 "TVS_5.1V" V 4965 10505 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 4925 10425 50  0000 C CNN
+F 3 "~" H 4925 10425 50  0001 C CNN
+	1    4925 10425
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61625C91
+P 5875 10225
+AR Path="/61625C91" Ref="R?"  Part="1" 
+AR Path="/615CA4D2/61625C91" Ref="R46"  Part="1" 
+F 0 "R46" V 6025 10225 50  0000 C CNN
+F 1 "1k" V 5950 10225 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 10225 50  0000 C CNN
+F 3 "~" H 5875 10225 50  0001 C CNN
+	1    5875 10225
+	0    -1   -1   0   
+$EndComp
 $Comp
 L Device:C C?
 U 1 1 615C51F6
 P 6275 10425
 AR Path="/615C51F6" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/615C51F6" Ref="C?"  Part="1" 
-F 0 "C?" H 6390 10471 50  0000 L CNN
+AR Path="/615CA4D2/615C51F6" Ref="C26"  Part="1" 
+F 0 "C26" H 6390 10471 50  0000 L CNN
 F 1 "1uF" H 6390 10380 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6313 10275 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6313 10275 50  0000 C CNN
 F 3 "~" H 6275 10425 50  0001 C CNN
 	1    6275 10425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 615C5203
+P 6650 10425
+AR Path="/615C5203" Ref="C?"  Part="1" 
+AR Path="/615CA4D2/615C5203" Ref="C32"  Part="1" 
+F 0 "C32" H 6765 10471 50  0000 L CNN
+F 1 "1uF" H 6765 10380 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 10275 50  0000 C CNN
+F 3 "~" H 6650 10425 50  0001 C CNN
+	1    6650 10425
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1204,27 +1183,51 @@ L Device:C C?
 U 1 1 615C51FC
 P 5525 10425
 AR Path="/615C51FC" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/615C51FC" Ref="C?"  Part="1" 
-F 0 "C?" H 5640 10471 50  0000 L CNN
+AR Path="/615CA4D2/615C51FC" Ref="C20"  Part="1" 
+F 0 "C20" H 5640 10471 50  0000 L CNN
 F 1 "1nF" H 5640 10380 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5563 10275 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5563 10275 50  0000 C CNN
 F 3 "~" H 5525 10425 50  0001 C CNN
 	1    5525 10425
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 10225 6100 10825
+$Comp
+L Device:R R?
+U 1 1 61625C97
+P 5875 10825
+AR Path="/61625C97" Ref="R?"  Part="1" 
+AR Path="/615CA4D2/61625C97" Ref="R47"  Part="1" 
+F 0 "R47" V 6025 10825 50  0000 C CNN
+F 1 "100R" V 5950 10825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 10825 50  0000 C CNN
+F 3 "~" H 5875 10825 50  0001 C CNN
+	1    5875 10825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61625C76
+P 5875 11100
+AR Path="/61625C76" Ref="R?"  Part="1" 
+AR Path="/615CA4D2/61625C76" Ref="R48"  Part="1" 
+F 0 "R48" V 6025 11100 50  0000 C CNN
+F 1 "400R" V 5950 11100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5805 11100 50  0000 C CNN
+F 3 "~" H 5875 11100 50  0001 C CNN
+	1    5875 11100
+	0    -1   -1   0   
+$EndComp
 $Comp
 L Device:C C?
-U 1 1 615C5203
-P 6650 10425
-AR Path="/615C5203" Ref="C?"  Part="1" 
-AR Path="/615CA4D2/615C5203" Ref="C?"  Part="1" 
-F 0 "C?" H 6765 10471 50  0000 L CNN
-F 1 "1uF" H 6765 10380 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 10275 50  0001 C CNN
-F 3 "~" H 6650 10425 50  0001 C CNN
-	1    6650 10425
+U 1 1 6178C450
+P 8275 10650
+AR Path="/6178C450" Ref="C?"  Part="1" 
+AR Path="/615CA4D2/6178C450" Ref="C33"  Part="1" 
+F 0 "C33" H 8390 10696 50  0000 L CNN
+F 1 "470nF 16V" H 8390 10605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8313 10500 50  0000 C CNN
+F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0603/16548-chipc-0603-470n.html" H 8275 10650 50  0001 C CNN
+	1    8275 10650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

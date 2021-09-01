@@ -1,4 +1,4 @@
-18647880805502391
+18668963967246788
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -54971,6 +54971,13 @@ KICAD Components
 4
 4
 KICAD Components
+13220314
+132203-14-1
+Connector
+0
+5
+5
+KICAD Components
 750311880
 750311880-3
 Transformer
@@ -54985,12 +54992,75 @@ KICAD Components
 8
 8
 KICAD Components
+AMPHENOL_10118194-0001LF
+
+
+0
+11
+11
+KICAD Components
+Analog_Devices_Inc-CP-8-11-11_2012-C-IPC_A
+
+
+0
+9
+9
+KICAD Components
+Analog_Devices_Inc-CP-8-11-11_2012-C-IPC_B
+
+
+0
+9
+9
+KICAD Components
+Analog_Devices_Inc-CP-8-11-11_2012-C-IPC_C
+
+
+0
+9
+9
+KICAD Components
+DFN300X300X80-9N
+
+
+0
+9
+9
+KICAD Components
+DIODFN62X32X33-2N-X3DFN
+
+
+0
+2
+2
+KICAD Components
 D_PowerDI-5_with_3DModel
 PowerDI,Diode,Vishay,https://www.diodes.com/assets/Package-Files/PowerDI5.pdf
 PowerDI diode vishay
 0
 3
 2
+KICAD Components
+IC_TPS7A4501DCQR
+
+
+0
+16
+16
+KICAD Components
+MOLEX_73251-1351
+
+
+0
+5
+5
+KICAD Components
+NCP133AMX100TCG
+
+
+0
+7
+7
 KICAD Components
 PowerPAK_SO-8_Single_with-3Dmodel
 PowerPAK SO-8 Single (https://www.vishay.com/docs/71655/powerpak.pdf, https://www.vishay.com/docs/72599/72599.pdf)
@@ -55034,6 +55104,20 @@ Integrated Circuit
 48
 48
 KICAD Components
+TPS82130SILR
+
+
+0
+12
+10
+KICAD Components
+USB_Micro-B_Amphenol_10103594-0001LF_Horizontal-with3DModel
+Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
+USB USB_B USB_micro USB_OTG
+0
+17
+6
+KICAD Components
 VISHAY_SIS468DN-T1-GE3
 
 
@@ -55041,9 +55125,16 @@ VISHAY_SIS468DN-T1-GE3
 9
 9
 KICAD Components
-XCVR_ZED-F9P-00B-02
+ZED-F9P-00B-02
 
 
+0
+54
+54
+KICAD Components
+ZEDF9P01B
+ZED-F9P-01B-1
+Integrated Circuit
 0
 102
 102
