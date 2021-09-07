@@ -21,7 +21,7 @@ AR Path="/619B3D03" Ref="U?"  Part="1"
 AR Path="/61981410/619B3D03" Ref="U6"  Part="1" 
 F 0 "U6" H 5900 3150 50  0000 C CNN
 F 1 "STM32L071KBTx" H 5925 3075 50  0000 C CNN
-F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 5050 3200 50  0000 R CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 5050 3200 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf" H 5550 4100 50  0001 C CNN
 	1    5550 4100
 	1    0    0    -1  
@@ -74,7 +74,7 @@ AR Path="/619B3D27" Ref="C?"  Part="1"
 AR Path="/61981410/619B3D27" Ref="C35"  Part="1" 
 F 0 "C35" H 3425 1850 50  0000 L CNN
 F 1 "10uF 10V" H 3175 2025 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3613 1775 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3613 1775 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 3575 1925 50  0001 C CNN
 	1    3575 1925
 	-1   0    0    1   
@@ -87,7 +87,7 @@ AR Path="/619B3D2D" Ref="C?"  Part="1"
 AR Path="/61981410/619B3D2D" Ref="C36"  Part="1" 
 F 0 "C36" H 3950 1850 50  0000 L CNN
 F 1 "100nF 10V" H 3675 2025 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4138 1775 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4138 1775 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 4100 1925 50  0001 C CNN
 	1    4100 1925
 	-1   0    0    1   
@@ -100,7 +100,7 @@ AR Path="/619B3D33" Ref="C?"  Part="1"
 AR Path="/61981410/619B3D33" Ref="C38"  Part="1" 
 F 0 "C38" H 4450 1850 50  0000 L CNN
 F 1 "100nF 10V" H 4175 2025 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4638 1775 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4638 1775 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 4600 1925 50  0001 C CNN
 	1    4600 1925
 	-1   0    0    1   
@@ -113,7 +113,7 @@ AR Path="/619B3D39" Ref="C?"  Part="1"
 AR Path="/61981410/619B3D39" Ref="C39"  Part="1" 
 F 0 "C39" H 4975 1850 50  0000 L CNN
 F 1 "100nF 10V" H 4700 2025 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5163 1775 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5163 1775 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 5125 1925 50  0001 C CNN
 	1    5125 1925
 	-1   0    0    1   
@@ -126,7 +126,7 @@ AR Path="/619B3D3F" Ref="C?"  Part="1"
 AR Path="/61981410/619B3D3F" Ref="C37"  Part="1" 
 F 0 "C37" H 3975 3525 50  0000 L CNN
 F 1 "0.1uF" H 3900 3700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4163 3450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4163 3450 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 4125 3600 50  0001 C CNN
 	1    4125 3600
 	-1   0    0    1   
@@ -139,7 +139,7 @@ AR Path="/619B3D45" Ref="JP?"  Part="1"
 AR Path="/61981410/619B3D45" Ref="JP1"  Part="1" 
 F 0 "JP1" V 3279 3748 50  0000 L CNN
 F 1 "Jumper_2_Open" V 3370 3748 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3325 3650 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3325 3650 50  0001 C CNN
 F 3 "~" H 3325 3650 50  0001 C CNN
 	1    3325 3650
 	0    1    1    0   
@@ -185,7 +185,7 @@ AR Path="/619B3D5C" Ref="R?"  Part="1"
 AR Path="/61981410/619B3D5C" Ref="R51"  Part="1" 
 F 0 "R51" H 4375 3675 50  0000 C CNN
 F 1 "100k" H 4350 3775 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4430 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4430 3750 50  0001 C CNN
 F 3 "~" H 4500 3750 50  0001 C CNN
 	1    4500 3750
 	-1   0    0    1   
@@ -287,7 +287,7 @@ AR Path="/619F5437" Ref="R?"  Part="1"
 AR Path="/61981410/619F5437" Ref="R49"  Part="1" 
 F 0 "R49" H 2925 4875 50  0000 C CNN
 F 1 "10k" H 2925 4975 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3005 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3005 4950 50  0001 C CNN
 F 3 "~" H 3075 4950 50  0001 C CNN
 	1    3075 4950
 	-1   0    0    1   
@@ -298,7 +298,7 @@ U 1 1 619F66ED
 P 3075 5300
 F 0 "D9" V 3114 5182 50  0000 R CNN
 F 1 "LED" V 3023 5182 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 3075 5300 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 3075 5300 50  0001 C CNN
 F 3 "~" H 3075 5300 50  0001 C CNN
 	1    3075 5300
 	0    -1   -1   0   
@@ -330,7 +330,7 @@ AR Path="/619FE559" Ref="R?"  Part="1"
 AR Path="/61981410/619FE559" Ref="R50"  Part="1" 
 F 0 "R50" H 3250 4975 50  0000 C CNN
 F 1 "10k" H 3250 5075 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3330 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3330 5050 50  0001 C CNN
 F 3 "~" H 3400 5050 50  0001 C CNN
 	1    3400 5050
 	-1   0    0    1   
@@ -341,7 +341,7 @@ U 1 1 619FE55F
 P 3400 5400
 F 0 "D10" V 3439 5282 50  0000 R CNN
 F 1 "LED" V 3348 5282 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 3400 5400 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 3400 5400 50  0001 C CNN
 F 3 "~" H 3400 5400 50  0001 C CNN
 	1    3400 5400
 	0    -1   -1   0   
@@ -442,7 +442,7 @@ AR Path="/61A53065" Ref="JP?"  Part="1"
 AR Path="/61981410/61A53065" Ref="JP2"  Part="1" 
 F 0 "JP2" V 6950 3725 50  0000 L CNN
 F 1 "Jumper_2_Open" V 7050 3275 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7000 3900 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7000 3900 50  0001 C CNN
 F 3 "~" H 7000 3900 50  0001 C CNN
 	1    7000 3900
 	0    1    1    0   
@@ -483,7 +483,7 @@ AR Path="/61AFB503" Ref="JP?"  Part="1"
 AR Path="/61981410/61AFB503" Ref="JP3"  Part="1" 
 F 0 "JP3" V 7150 3900 50  0000 L CNN
 F 1 "Jumper_2_Open" V 7250 3900 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7200 3800 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7200 3800 50  0001 C CNN
 F 3 "~" H 7200 3800 50  0001 C CNN
 	1    7200 3800
 	0    1    1    0   
@@ -524,7 +524,7 @@ U 1 1 61D4A3DB
 P 3075 1725
 F 0 "U5" H 3075 1967 50  0000 C CNN
 F 1 "LD1117S33TR_SOT223" H 3075 1876 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3075 1925 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3075 1925 50  0001 C CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 3175 1475 50  0001 C CNN
 	1    3075 1725
 	1    0    0    -1  
@@ -540,7 +540,7 @@ AR Path="/61D4DDCB" Ref="C?"  Part="1"
 AR Path="/61981410/61D4DDCB" Ref="C34"  Part="1" 
 F 0 "C34" H 2250 1850 50  0000 L CNN
 F 1 "100nF 10V" H 1975 2025 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2438 1775 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2438 1775 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 2400 1925 50  0001 C CNN
 	1    2400 1925
 	-1   0    0    1   

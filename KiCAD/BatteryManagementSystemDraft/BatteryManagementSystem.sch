@@ -19,7 +19,7 @@ U 1 1 60A9C678
 P 4675 7400
 F 0 "U2" H 6175 5650 50  0000 L CNN
 F 1 "BQ79606APHPTQ1" H 6175 5550 50  0000 L CNN
-F 2 "KICAD Components:QFP50P900X900X120-49N" H 6325 7900 50  0000 L CNN
+F 2 "KICAD Components:QFP50P900X900X120-49N" H 6325 7900 50  0001 L CNN
 F 3 "http://www.ti.com/lit/gpn/BQ79606A-Q1" H 6325 7800 50  0001 L CNN
 F 4 "SafeTI precision monitor with integrated hardware protector for automotive battery packs" H 6325 7700 50  0001 L CNN "Description"
 F 5 "1.2" H 6325 7600 50  0001 L CNN "Height"
@@ -166,7 +166,7 @@ U 1 1 609BC3B9
 P 700 7975
 F 0 "J1" H 840 8345 50  0000 R CNN
 F 1 "Conn_01x07_Male" H 1200 8425 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 700 7975 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 700 7975 50  0001 C CNN
 F 3 "~" H 700 7975 50  0001 C CNN
 	1    700  7975
 	1    0    0    1   
@@ -177,7 +177,7 @@ U 1 1 617F27FF
 P 9100 7500
 F 0 "R15" V 8950 7500 50  0000 C CNN
 F 1 "10k" V 9025 7500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 7500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 7500 50  0001 C CNN
 F 3 "~" H 9100 7500 50  0001 C CNN
 	1    9100 7500
 	0    1    1    0   
@@ -266,7 +266,7 @@ U 1 1 6182B6EF
 P 9100 7725
 F 0 "R16" V 8950 7725 50  0000 C CNN
 F 1 "10k" V 9025 7725 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 7725 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 7725 50  0001 C CNN
 F 3 "~" H 9100 7725 50  0001 C CNN
 	1    9100 7725
 	0    1    1    0   
@@ -277,7 +277,7 @@ U 1 1 6182BA70
 P 9100 7950
 F 0 "R17" V 8950 7950 50  0000 C CNN
 F 1 "10k" V 9025 7950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 7950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 7950 50  0001 C CNN
 F 3 "~" H 9100 7950 50  0001 C CNN
 	1    9100 7950
 	0    1    1    0   
@@ -288,7 +288,7 @@ U 1 1 6182BD98
 P 9100 8175
 F 0 "R18" V 8950 8175 50  0000 C CNN
 F 1 "10k" V 9025 8175 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 8175 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 8175 50  0001 C CNN
 F 3 "~" H 9100 8175 50  0001 C CNN
 	1    9100 8175
 	0    1    1    0   
@@ -299,7 +299,7 @@ U 1 1 6182C0AB
 P 9100 8400
 F 0 "R19" V 8950 8400 50  0000 C CNN
 F 1 "10k" V 9025 8400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 8400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 8400 50  0001 C CNN
 F 3 "~" H 9100 8400 50  0001 C CNN
 	1    9100 8400
 	0    1    1    0   
@@ -310,7 +310,7 @@ U 1 1 6182C3C5
 P 9100 8625
 F 0 "R20" V 8950 8625 50  0000 C CNN
 F 1 "10k" V 9025 8625 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 8625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 8625 50  0001 C CNN
 F 3 "~" H 9100 8625 50  0001 C CNN
 	1    9100 8625
 	0    1    1    0   
@@ -323,7 +323,7 @@ U 1 1 618348D2
 P 6425 6850
 F 0 "C8" H 6310 6804 50  0000 R CNN
 F 1 "330nF 50V" H 6310 6895 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6463 6700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6463 6700 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-1206/5488-chipc-1206-330n.html" H 6425 6850 50  0001 C CNN
 	1    6425 6850
 	-1   0    0    1   
@@ -345,7 +345,7 @@ U 1 1 6185DAFC
 P 6425 6325
 F 0 "R4" H 6325 6300 50  0000 C CNN
 F 1 "49R" H 6300 6375 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6355 6325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6355 6325 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/vastukset/pintaliitosvastukset/pintaliitosvastukset-0805/16583-chipr-0805-50r.html" H 6425 6325 50  0001 C CNN
 	1    6425 6325
 	-1   0    0    1   
@@ -356,7 +356,7 @@ U 1 1 6187408D
 P 8225 4725
 F 0 "R12" H 8100 4650 50  0000 C CNN
 F 1 "100k" H 8075 4800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8155 4725 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8155 4725 50  0001 C CNN
 F 3 "~" H 8225 4725 50  0001 C CNN
 	1    8225 4725
 	1    0    0    1   
@@ -382,7 +382,7 @@ U 1 1 612E4F27
 P 7875 5475
 F 0 "R9" H 7750 5400 50  0000 C CNN
 F 1 "100k" H 7725 5500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7805 5475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7805 5475 50  0001 C CNN
 F 3 "~" H 7875 5475 50  0001 C CNN
 	1    7875 5475
 	-1   0    0    1   
@@ -469,7 +469,7 @@ U 1 1 613D21F4
 P 7575 5475
 F 0 "R8" H 7450 5400 50  0000 C CNN
 F 1 "100k" H 7425 5500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7505 5475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7505 5475 50  0001 C CNN
 F 3 "~" H 7575 5475 50  0001 C CNN
 	1    7575 5475
 	-1   0    0    1   
@@ -555,7 +555,7 @@ U 1 1 614B802F
 P 8225 8850
 F 0 "R13" H 8100 8775 50  0000 C CNN
 F 1 "100k" H 8075 8875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8155 8850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8155 8850 50  0001 C CNN
 F 3 "~" H 8225 8850 50  0001 C CNN
 	1    8225 8850
 	-1   0    0    1   
@@ -609,7 +609,7 @@ U 1 1 615826BD
 P 4625 6400
 F 0 "R1" V 4475 6400 50  0000 C CNN
 F 1 "100R" V 4550 6400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4555 6400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4555 6400 50  0001 C CNN
 F 3 "~" H 4625 6400 50  0001 C CNN
 	1    4625 6400
 	0    1    1    0   
@@ -620,7 +620,7 @@ U 1 1 6188676B
 P 3750 5875
 F 0 "C4" H 3650 5800 50  0000 L CNN
 F 1 "2.2uF 10V" H 3350 5975 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3788 5725 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3788 5725 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 3750 5875 50  0001 C CNN
 	1    3750 5875
 	-1   0    0    1   
@@ -631,7 +631,7 @@ U 1 1 6158896C
 P 3300 5875
 F 0 "C3" H 3200 5800 50  0000 L CNN
 F 1 "2.2uF 10V" H 2900 5975 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3338 5725 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3338 5725 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 3300 5875 50  0001 C CNN
 	1    3300 5875
 	-1   0    0    1   
@@ -642,7 +642,7 @@ U 1 1 61588FB9
 P 2850 5875
 F 0 "C1" H 2750 5800 50  0000 L CNN
 F 1 "2.2uF 10V" H 2450 5975 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 5725 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2888 5725 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 2850 5875 50  0001 C CNN
 	1    2850 5875
 	-1   0    0    1   
@@ -653,7 +653,7 @@ U 1 1 6158964A
 P 7325 6175
 F 0 "C12" H 7175 6100 50  0000 L CNN
 F 1 "2.2uF 10V" H 6925 6275 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7363 6025 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7363 6025 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 7325 6175 50  0001 C CNN
 	1    7325 6175
 	-1   0    0    1   
@@ -664,7 +664,7 @@ U 1 1 6158AAE1
 P 8400 7000
 F 0 "C14" H 8250 6925 50  0000 L CNN
 F 1 "2.2uF 10V" H 8000 7100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8438 6850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8438 6850 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 8400 7000 50  0001 C CNN
 	1    8400 7000
 	-1   0    0    1   
@@ -675,7 +675,7 @@ U 1 1 6158C13C
 P 7800 7250
 F 0 "C13" H 7650 7175 50  0000 L CNN
 F 1 "2.2uF 10V" H 7400 7350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7838 7100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7838 7100 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 7800 7250 50  0001 C CNN
 	1    7800 7250
 	-1   0    0    1   
@@ -686,7 +686,7 @@ U 1 1 6158CA76
 P 7175 8700
 F 0 "C9" H 7025 8625 50  0000 L CNN
 F 1 "2.2uF 10V" H 6775 8800 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7213 8550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7213 8550 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 7175 8700 50  0001 C CNN
 	1    7175 8700
 	-1   0    0    1   
@@ -697,7 +697,7 @@ U 1 1 6159210B
 P 4200 5875
 F 0 "C6" H 4085 5829 50  0000 R CNN
 F 1 "330nF 50V" H 4085 5920 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4238 5725 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4238 5725 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-1206/5488-chipc-1206-330n.html" H 4200 5875 50  0001 C CNN
 	1    4200 5875
 	-1   0    0    1   
@@ -719,7 +719,7 @@ U 1 1 61623CA2
 P 7325 7250
 F 0 "R7" H 7200 7175 50  0000 C CNN
 F 1 "100k" H 7175 7275 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7255 7250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7255 7250 50  0001 C CNN
 F 3 "~" H 7325 7250 50  0001 C CNN
 	1    7325 7250
 	-1   0    0    1   
@@ -751,7 +751,7 @@ U 1 1 6175FB4B
 P 13350 5975
 F 0 "J4" H 13322 5949 50  0000 R CNN
 F 1 "Conn_01x04_Male" H 13300 5850 50  0001 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 13350 5975 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 13350 5975 50  0001 C CNN
 F 3 "~" H 13350 5975 50  0001 C CNN
 	1    13350 5975
 	-1   0    0    -1  
@@ -762,7 +762,7 @@ U 1 1 617D91C8
 P 12900 5875
 F 0 "R22" V 12750 5875 50  0000 C CNN
 F 1 "0R" V 12825 5875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 12830 5875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12830 5875 50  0001 C CNN
 F 3 "~" H 12900 5875 50  0001 C CNN
 	1    12900 5875
 	0    1    1    0   
@@ -876,7 +876,7 @@ U 1 1 61B0716C
 P 7300 3525
 F 0 "C11" H 7150 3450 50  0000 L CNN
 F 1 "1uF" H 7150 3625 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7338 3375 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7338 3375 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 7300 3525 50  0001 C CNN
 	1    7300 3525
 	-1   0    0    1   
@@ -887,7 +887,7 @@ U 1 1 61C0ACD2
 P 3550 1625
 F 0 "U1" H 3550 1867 50  0000 C CNN
 F 1 "L7812CD2T" H 3550 1776 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2" H 3575 1475 50  0000 L CIN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 3575 1475 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3550 1575 50  0001 C CNN
 	1    3550 1625
 	1    0    0    -1  
@@ -898,7 +898,7 @@ U 1 1 61C0E3FD
 P 4050 1825
 F 0 "C5" H 3850 1800 50  0000 L CNN
 F 1 "0.1uF" H 3725 1900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 1675 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 1675 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 4050 1825 50  0001 C CNN
 	1    4050 1825
 	-1   0    0    1   
@@ -909,7 +909,7 @@ U 1 1 61C2B2EB
 P 2900 1825
 F 0 "C2" H 2700 1800 50  0000 L CNN
 F 1 "0.33uF" H 2575 1900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 1675 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 1675 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 2900 1825 50  0001 C CNN
 	1    2900 1825
 	-1   0    0    1   
@@ -952,7 +952,7 @@ U 1 1 61C8D58E
 P 7300 1775
 F 0 "D1" V 7250 1625 50  0000 C CNN
 F 1 "1N6263W-7-F 1A" V 7500 1550 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 7300 1775 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 7300 1775 50  0001 C CNN
 F 3 "~" H 7300 1775 50  0001 C CNN
 	1    7300 1775
 	0    -1   -1   0   
@@ -963,7 +963,7 @@ U 1 1 61C8D594
 P 7300 2125
 F 0 "C10" H 7150 2050 50  0000 L CNN
 F 1 "1uF" H 7150 2225 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7338 1975 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7338 1975 50  0001 C CNN
 F 3 "https://www.partco.fi/fi/elektroniikan-komponentit/passiivit/kondensaattorit/keraamiset-kondensaattorit/pintaliitoskerkot-0805/5484-chipc-0805-2u2.html" H 7300 2125 50  0001 C CNN
 	1    7300 2125
 	-1   0    0    1   
@@ -976,7 +976,7 @@ U 1 1 61C8D5B3
 P 5725 2600
 F 0 "R2" H 5625 2525 50  0000 C CNN
 F 1 "100k" H 5575 2625 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5655 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5655 2600 50  0001 C CNN
 F 3 "~" H 5725 2600 50  0001 C CNN
 	1    5725 2600
 	-1   0    0    1   
@@ -1028,7 +1028,7 @@ U 1 1 61E39176
 P 8200 1175
 F 0 "Q1" V 8542 1175 50  0000 C CNN
 F 1 "STB45N65M5 NMOS" V 8451 1175 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2" H 8400 1275 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 8400 1275 50  0001 C CNN
 F 3 "~" H 8200 1175 50  0001 C CNN
 	1    8200 1175
 	0    -1   -1   0   
@@ -1039,7 +1039,7 @@ U 1 1 61E3D555
 P 9100 1175
 F 0 "Q2" V 9442 1175 50  0000 C CNN
 F 1 "STB45N65M5 NMOS" V 9351 1175 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2" H 9300 1275 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 9300 1275 50  0001 C CNN
 F 3 "~" H 9100 1175 50  0001 C CNN
 	1    9100 1175
 	0    1    -1   0   
@@ -1089,7 +1089,7 @@ U 1 1 61FD954D
 P 9375 1975
 F 0 "R21" H 9250 1900 50  0000 C CNN
 F 1 "100k" H 9225 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9305 1975 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9305 1975 50  0001 C CNN
 F 3 "~" H 9375 1975 50  0001 C CNN
 	1    9375 1975
 	1    0    0    1   
@@ -1100,7 +1100,7 @@ U 1 1 61FD9E3B
 P 7950 1975
 F 0 "R10" H 7825 1900 50  0000 C CNN
 F 1 "100k" H 7800 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7880 1975 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7880 1975 50  0001 C CNN
 F 3 "~" H 7950 1975 50  0001 C CNN
 	1    7950 1975
 	1    0    0    1   
@@ -1141,7 +1141,7 @@ U 1 1 62056020
 P 10025 1075
 F 0 "J3" H 10105 1021 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 10105 976 50  0001 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10025 1075 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 10025 1075 50  0001 C CNN
 F 3 "~" H 10025 1075 50  0001 C CNN
 	1    10025 1075
 	1    0    0    -1  
@@ -1154,7 +1154,7 @@ U 1 1 62097149
 P 1400 1075
 F 0 "J2" H 1500 1025 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 1480 976 50  0001 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1400 1075 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1400 1075 50  0001 C CNN
 F 3 "~" H 1400 1075 50  0001 C CNN
 	1    1400 1075
 	-1   0    0    -1  
@@ -1174,7 +1174,7 @@ U 1 1 6213493C
 P 9100 1600
 F 0 "R14" H 8975 1525 50  0000 C CNN
 F 1 "100R" H 8950 1675 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9030 1600 50  0001 C CNN
 F 3 "~" H 9100 1600 50  0001 C CNN
 	1    9100 1600
 	1    0    0    1   
@@ -1185,7 +1185,7 @@ U 1 1 62134F35
 P 8200 1600
 F 0 "R11" H 8075 1525 50  0000 C CNN
 F 1 "100R" H 8050 1675 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8130 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8130 1600 50  0001 C CNN
 F 3 "~" H 8200 1600 50  0001 C CNN
 	1    8200 1600
 	1    0    0    1   
@@ -1208,7 +1208,7 @@ U 1 1 6218DA6D
 P 4525 1825
 F 0 "C7" H 4643 1871 50  0000 L CNN
 F 1 "100uF" H 4643 1780 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 4563 1675 50  0000 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 4563 1675 50  0001 C CNN
 F 3 "~" H 4525 1825 50  0001 C CNN
 	1    4525 1825
 	1    0    0    -1  
@@ -1238,7 +1238,7 @@ U 1 1 6225267C
 P 6950 1625
 F 0 "R5" V 6800 1625 50  0000 C CNN
 F 1 "2R" V 6875 1625 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6880 1625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6880 1625 50  0001 C CNN
 F 3 "~" H 6950 1625 50  0001 C CNN
 	1    6950 1625
 	0    1    1    0   
@@ -1254,7 +1254,7 @@ U 1 1 620C9628
 P 6350 2250
 F 0 "U3" H 6350 2817 50  0000 C CNN
 F 1 "LM5109BMA" H 6350 2726 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6350 1750 50  0000 C CIN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6350 1750 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm5109b.pdf" H 6350 2250 50  0001 C CNN
 	1    6350 2250
 	1    0    0    -1  
@@ -1291,7 +1291,7 @@ U 1 1 622A7C68
 P 5725 4000
 F 0 "R3" H 5625 3925 50  0000 C CNN
 F 1 "100k" H 5575 4025 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5655 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5655 4000 50  0001 C CNN
 F 3 "~" H 5725 4000 50  0001 C CNN
 	1    5725 4000
 	-1   0    0    1   
@@ -1302,7 +1302,7 @@ U 1 1 622A7C76
 P 6950 3025
 F 0 "R6" V 6800 3025 50  0000 C CNN
 F 1 "2R" V 6875 3025 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 6880 3025 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6880 3025 50  0001 C CNN
 F 3 "~" H 6950 3025 50  0001 C CNN
 	1    6950 3025
 	0    1    1    0   
@@ -1316,7 +1316,7 @@ U 1 1 622A7C7E
 P 6350 3650
 F 0 "U4" H 6350 4217 50  0000 C CNN
 F 1 "LM5109BMA" H 6350 4126 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6350 3150 50  0000 C CIN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6350 3150 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm5109b.pdf" H 6350 3650 50  0001 C CNN
 	1    6350 3650
 	1    0    0    -1  
@@ -1385,7 +1385,7 @@ U 1 1 623A7B88
 P 7300 3175
 F 0 "D2" V 7250 3025 50  0000 C CNN
 F 1 "1N6263W-7-F 1A" V 7500 2950 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 7300 3175 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 7300 3175 50  0001 C CNN
 F 3 "~" H 7300 3175 50  0001 C CNN
 	1    7300 3175
 	0    -1   -1   0   
