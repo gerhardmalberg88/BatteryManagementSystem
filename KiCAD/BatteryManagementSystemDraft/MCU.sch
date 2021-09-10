@@ -259,7 +259,6 @@ NoConn ~ 6050 4900
 NoConn ~ 6050 4600
 NoConn ~ 6050 4500
 NoConn ~ 6050 4200
-NoConn ~ 6050 4100
 NoConn ~ 6050 4000
 NoConn ~ 6050 3900
 NoConn ~ 6050 3800
@@ -437,74 +436,62 @@ DischargeEnable
 $Comp
 L Jumper:Jumper_2_Open JP?
 U 1 1 61A53065
-P 7000 3900
+P 7350 3900
 AR Path="/61A53065" Ref="JP?"  Part="1" 
 AR Path="/61981410/61A53065" Ref="JP2"  Part="1" 
-F 0 "JP2" V 6950 3725 50  0000 L CNN
-F 1 "Jumper_2_Open" V 7050 3275 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7000 3900 50  0001 C CNN
-F 3 "~" H 7000 3900 50  0001 C CNN
-	1    7000 3900
+F 0 "JP2" V 7300 3725 50  0000 L CNN
+F 1 "Jumper_2_Open" V 7400 3275 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7350 3900 50  0001 C CNN
+F 3 "~" H 7350 3900 50  0001 C CNN
+	1    7350 3900
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 61A551D2
-P 7000 4150
+P 7350 4150
 AR Path="/61A551D2" Ref="#PWR?"  Part="1" 
 AR Path="/61981410/61A551D2" Ref="#PWR031"  Part="1" 
-F 0 "#PWR031" H 7000 3900 50  0001 C CNN
-F 1 "GND" H 7005 3977 50  0000 C CNN
-F 2 "" H 7000 4150 50  0001 C CNN
-F 3 "" H 7000 4150 50  0001 C CNN
-	1    7000 4150
+F 0 "#PWR031" H 7350 3900 50  0001 C CNN
+F 1 "GND" H 7355 3977 50  0000 C CNN
+F 2 "" H 7350 4150 50  0001 C CNN
+F 3 "" H 7350 4150 50  0001 C CNN
+	1    7350 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7000 4150 7000 4100
-Wire Wire Line
-	6050 3700 7000 3700
+	7350 4150 7350 4100
 Text Label 6225 3700 0    50   ~ 0
 ExtraInput2
 Connection ~ 5550 1725
-Wire Wire Line
-	5550 1725 8250 1725
-Wire Wire Line
-	8250 1725 8250 4600
-Text HLabel 9250 4600 2    50   Input ~ 0
-VCCDebug
-Wire Wire Line
-	8250 4600 9250 4600
 $Comp
 L Jumper:Jumper_2_Open JP?
 U 1 1 61AFB503
-P 7200 3800
+P 7550 3800
 AR Path="/61AFB503" Ref="JP?"  Part="1" 
 AR Path="/61981410/61AFB503" Ref="JP3"  Part="1" 
-F 0 "JP3" V 7150 3900 50  0000 L CNN
-F 1 "Jumper_2_Open" V 7250 3900 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7200 3800 50  0001 C CNN
-F 3 "~" H 7200 3800 50  0001 C CNN
-	1    7200 3800
+F 0 "JP3" V 7500 3900 50  0000 L CNN
+F 1 "Jumper_2_Open" V 7600 3900 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7550 3800 50  0001 C CNN
+F 3 "~" H 7550 3800 50  0001 C CNN
+	1    7550 3800
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 61AFB509
-P 7200 4050
+P 7550 4050
 AR Path="/61AFB509" Ref="#PWR?"  Part="1" 
 AR Path="/61981410/61AFB509" Ref="#PWR032"  Part="1" 
-F 0 "#PWR032" H 7200 3800 50  0001 C CNN
-F 1 "GND" H 7205 3877 50  0000 C CNN
-F 2 "" H 7200 4050 50  0001 C CNN
-F 3 "" H 7200 4050 50  0001 C CNN
-	1    7200 4050
+F 0 "#PWR032" H 7550 3800 50  0001 C CNN
+F 1 "GND" H 7555 3877 50  0000 C CNN
+F 2 "" H 7550 4050 50  0001 C CNN
+F 3 "" H 7550 4050 50  0001 C CNN
+	1    7550 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 4050 7200 4000
-Wire Wire Line
-	7200 3600 6050 3600
+	7550 4050 7550 4000
 Text Label 6225 3600 0    50   ~ 0
 ExtraInput1
 Connection ~ 4100 1725
@@ -566,4 +553,42 @@ Wire Wire Line
 	2000 4600 4950 4600
 Wire Wire Line
 	2175 1725 2175 4900
+Wire Wire Line
+	6050 3600 7550 3600
+Wire Wire Line
+	6050 3700 7350 3700
+Wire Wire Line
+	6050 4100 6950 4100
+Wire Wire Line
+	6950 4100 6950 4900
+Wire Wire Line
+	6950 4900 9250 4900
+Text HLabel 9250 4900 2    50   Input ~ 0
+Vcurrent
+Text Label 6225 4100 0    50   ~ 0
+Vcurrent
+$Comp
+L power:+3V3 #PWR037
+U 1 1 614C139B
+P 5550 1675
+F 0 "#PWR037" H 5550 1525 50  0001 C CNN
+F 1 "+3V3" H 5565 1848 50  0000 C CNN
+F 2 "" H 5550 1675 50  0001 C CNN
+F 3 "" H 5550 1675 50  0001 C CNN
+	1    5550 1675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1725 5550 1675
+$Comp
+L power:+3V3 #PWR039
+U 1 1 6162D22F
+P 3975 150
+F 0 "#PWR039" H 3975 0   50  0001 C CNN
+F 1 "+3V3" H 3990 323 50  0000 C CNN
+F 2 "" H 3975 150 50  0001 C CNN
+F 3 "" H 3975 150 50  0001 C CNN
+	1    3975 150 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
