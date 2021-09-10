@@ -7,7 +7,7 @@ Sheet 1 3
 Title "BMS Evaluation"
 Date "2021-05-17"
 Rev "1"
-Comp ""
+Comp "Author: GM"
 Comment1 ""
 Comment2 ""
 Comment3 ""
